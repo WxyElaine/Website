@@ -9,7 +9,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"香气浓郁，混合了杏仁、蜂蜜和葡萄柚的芳香。入口后有一种更加深邃的焦糖与太妃糖的混合口感, 还有一丝蜂蜜的余味。\n搭配简单菜肴，坚果,奶酪，配新鲜面包和饼干。",
-      "img":"/website/ice/pic/1.png"
+      "img":"/ice/pic/1.png"
     },
     { "name":"丹·爱克罗发现系列VQA维代尔白冰酒",
       "country":"加拿大原瓶原装进口",
@@ -21,7 +21,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"展示了丰富的蜂蜜和桃子的味道, 接着是菠萝, 热带水果的活泼口感, 品尝时能够感受到酸度适宜，口感优柔绵长。\n可单饮,也可盛入浓郁的巧克力。",
-      "img":"/website/ice/pic/2.png"
+      "img":"/ice/pic/2.png"
     },
     { "name":"湖景VQA维代尔白冰酒",
       "country":"加拿大原瓶原装进口",
@@ -33,7 +33,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"入口伴随着蜂蜜, 柠檬和柑橘的香气, 其次酸度甜度的平衡。冷藏至大约12&#x2103;时饮用最佳。\n与新鲜的水果或芝士搭配食用,或者配上一块鲜奶油杏仁挞。",
-      "img":"/website/ice/pic/3.png"
+      "img":"/ice/pic/3.png"
     },
     { "name":"德索萨VQA维代尔白冰酒",
       "country":"加拿大原瓶原装进口",
@@ -45,7 +45,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"丰富的杏, 桃和蜂蜜的香味,入口时鼻尖萦绕着丰富和甘美的气息，混合了柠檬, 酸橙和新鲜桃子的香味。\n单饮或与软奶酪, 坚果，蛋糕搭配。",
-      "img":"/website/ice/pic/4.png"
+      "img":"/ice/pic/4.png"
     },
     { "name":"20蜜蜂VQA维代尔白冰酒",
       "country":"加拿大原瓶原装进口",
@@ -57,7 +57,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"迷人的金色，充分展示出桃子、蜂蜜和新鲜杏子的混合气息。口感活泼，带有柑橘香味，甜蜜悠长。\n与天使蛋糕，新鲜的桃子和奶油，或者配上蜜饯柠檬。冷藏至约12&#x2103;饮用最佳。",
-      "img":"/website/ice/pic/5.png"
+      "img":"/ice/pic/5.png"
     },
     { "name":"湖景VQA品丽珠红冰酒",
       "country":"加拿大原瓶原装进口",
@@ -69,7 +69,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"具有浓郁的草莓、蔓越莓和樱桃香气。其中深厚、复杂的胡椒味能平衡口中的甜味。在回味中能够感受到酸度平衡的绝妙口感。上餐前需冷藏至12&#x2103;。单饮，也可搭配与新鲜的草莓馅饼，樱桃芝士蛋糕或巧克力慕斯搭配。",
-      "img":"/website/ice/pic/6.png",
+      "img":"/ice/pic/6.png",
       "special":"葡萄酒联盟---2014年加拿大国家葡萄酒奖，银牌"
     },
     { "name":"20蜜蜂VQA品丽珠红冰酒",
@@ -82,7 +82,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"带有蔓越莓，樱桃和草莓酱的芳香,后续新鲜覆盆子和成熟红李子的浓郁味道。\n与草莓黑巧克力或樱桃芝士蛋糕是绝配。",
-      "img":"/website/ice/pic/7.png",
+      "img":"/ice/pic/7.png",
       "special":"2014加拿大葡萄酒锦标赛，铜牌\n2014加拿大Wine Align国家葡萄酒赛，铜牌\nFinger Lakes国际葡萄酒大赛2015，银牌"
     },
     { "name":"伊斯戴尔VQA品丽珠红冰酒",
@@ -95,7 +95,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"具有浓郁的草莓、蔓越莓和樱桃香气。口感厚重，更加复杂的甜椒口味平衡了酒的甜度，回味悠长。\n上餐时需冷藏至12&#x2103;，可与新鲜的草莓馅饼，樱桃芝士蛋糕或巧克力慕斯搭配。",
-      "img":"/website/ice/pic/8.png"
+      "img":"/ice/pic/8.png"
     },
     { "name":"丹·爱克罗发现系列VQA品丽珠红冰酒",
       "country":"加拿大原瓶原装进口",
@@ -107,7 +107,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"展示了充满活力的森林浆果香气, 特别是覆盆子和草莓的口味，更有天鹅绒般的口感和缠绵的回味无穷。\n单饮，可搭配巧克力, 冰淇淋或是浆果以及奶酪。",
-      "img":"/website/ice/pic/9.png"
+      "img":"/ice/pic/9.png"
     },
     { "name":"德索萨VQA品丽珠红冰酒",
       "country":"加拿大原瓶原装进口",
@@ -119,7 +119,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"这款经典的品丽珠冰酒混合着草莓, 黑醋栗和成熟的树莓的丰富味道，香气在鼻尖萦绕，同时，甜椒和甜红莓果酱的味道也在口中回荡。\n单饮或与软奶酪, 坚果，蛋糕搭配。",
-      "img":"/website/ice/pic/10.png"
+      "img":"/ice/pic/10.png"
     },
     { "name":"伊斯戴尔VQA赤霞珠红冰酒",
       "country":"加拿大原瓶原装进口",
@@ -131,7 +131,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"灿烂的红宝石色，红樱桃、新鲜草莓和成熟的覆盆子的芳香感浓烈。\n最好的餐前酒之一，可搭配黑巧克力慕斯, 奶油芝士, 奶酪。",
-      "img":"/website/ice/pic/11.png"
+      "img":"/ice/pic/11.png"
     },
     { "name":"哈伯酒庄 哈伯VQA雷司令白冰酒",
       "country":"加拿大原瓶原装进口",
@@ -143,7 +143,7 @@
       "storage":"避光、卧放",
       "expiration":"12年",
       "description":"淡金黄色，强烈香浓的芒果、百香果、微妙的杏子、梅子及苹果的香甜，以及清新的柑橘酸味平衡酒体甜而不腻。\n搭配软奶酪、鹅肝以及清淡甜点和薄脆饼干,海鲜。",
-      "img":"/website/ice/pic/12.png"
+      "img":"/ice/pic/12.png"
     },
     { "name":"哈伯VQA赤霞珠红冰酒",
       "country":"加拿大原瓶原装进口",
@@ -155,7 +155,7 @@
       "storage":"避光、卧放",
       "expiration":"12年",
       "description":"美丽的宝石红，红莓和樱桃，草莓和覆盆子的甜美12&#x2103;时饮用最佳。\n搭配开胃菜、软奶酪或黑巧克力，与伏特加混合，可调制一杯真正的加拿大马蒂尼鸡尾酒。",
-      "img":"/website/ice/pic/13.png"
+      "img":"/ice/pic/13.png"
     },
     { "name":"哈伯VQA品丽珠红冰酒",
       "country":"加拿大原瓶原装进口",
@@ -167,7 +167,7 @@
       "storage":"避光、卧放",
       "expiration":"12年",
       "description":"具有浓郁的草莓、蔓越莓和樱桃的清香，鲜脆的酸度与微微的红椒味平衡甜度，口感醇厚。\n饮前冰镇，搭配干酪和黑巧克力。",
-      "img":"/website/ice/pic/14.png",
+      "img":"/ice/pic/14.png",
       "special":"2010手指湖国际葡萄酒竞赛双金奖\n2010全加拿大葡萄酒大赛（ACWC）该类最佳双金奖"
     },
     { "name":"卡罗琳酒庄 卡罗琳VQA精品维代尔白冰酒",
@@ -180,7 +180,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"有蜜糖的甜味，花卉的清香味，以及酸橙的酸味。轻微的焦糖余味悠长甜蜜，欢快愉悦。\n搭配各款水果甜品及浓奶酪。",
-      "img":"/website/ice/pic/15.png",
+      "img":"/ice/pic/15.png",
       "special":"2012加拿大皇家冬季博览会金奖"
     },
     { "name":"卡罗琳VQA赤霞珠红冰酒",
@@ -193,7 +193,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"带有莓子酱和柠檬果酱的清甜果香，伴有巧克力和香草香味，浓郁的草莓酱和蜜糖橙皮的甜香气息。\n搭配各类甜品及水果。",
-      "img":"/website/ice/pic/16.png",
+      "img":"/ice/pic/16.png",
       "special":"2011年全加拿大葡萄酒大赛（ACWC）银奖"
     },
     { "name":"卡罗琳VQA品丽珠红冰酒",
@@ -206,7 +206,7 @@
       "storage":"避光、卧放",
       "expiration":"10年",
       "description":"具有红苹果，肉桂和蜜桔的芬芳，以及浓郁的奶油糖果味，余味泛辣。\n搭配烤苹果甜品，牛奶沙司或布丁，白巧克力甜品。",
-      "img":"/website/ice/pic/17.png",
+      "img":"/ice/pic/17.png",
       "special":"2012年全加拿大葡萄酒大赛（ACWC）铜奖\n2012加拿大葡萄酒大赛（CWA）铜奖"
     }
 ]

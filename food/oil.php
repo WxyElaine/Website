@@ -16,7 +16,7 @@
                     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link href="../mainstyle.css" type="text/css" rel="stylesheet" />
         <script src="../navbar.js" type="text/javascript"></script>
-        <link href="/website/css/article.css" type="text/css" rel="stylesheet" />
+        <link href="/css/article.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
