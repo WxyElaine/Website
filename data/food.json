@@ -1,0 +1,26 @@
+[
+    { "name":"诺思格燕麦",
+      "href":"/website/food/oat.php",
+      "img":"/website/food/pic/oat.jpg"
+    },
+    { "name":"格兰特牛奶",
+      "href":"/website/food/milk.php",
+      "img":"/website/food/pic/milk.jpg"
+    },
+    { "name":"意大利斯玛葡萄籽油",
+      "href":"/website/food/oil.php",
+      "img":"/website/food/pic/oil.jpg"
+    },
+    { "name":"大草原面粉",
+      "href":"/website/food/flour.php",
+      "img":"/website/food/pic/flour.jpg"
+    },
+    { "name":"小猪湾干海参",
+      "href":"/website/food/sea.php",
+      "img":"/website/food/pic/sea.jpg"
+    },
+    { "name":"Go Milk 高美可奶粉",
+      "href":"/website/food/powder.php",
+      "img":"/website/food/pic/powder.jpg"
+    }
+]

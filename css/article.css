@@ -1,0 +1,34 @@
+/*  
+    Xinyi Wang & Yuchen Wang
+    01/14/18
+    Product: Oats
+*/
+
+#maincontent {
+    text-align: left;
+    line-height: 1.5em;
+    margin: 10em;
+    margin-top: 1em;
+}
+
+#maincontent h1, #maincontent h2, .subtitle-s {
+    text-align: center;
+}
+
+#maincontent h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#maincontent h2 {
+    font-size: 1em;
+}
+
+#maincontent h3 {
+    font-size: 0.8em;
+}
+
+#maincontent p, #maincontent li {
+    font-size: 0.7em;
+    font-weight: normal;
+}

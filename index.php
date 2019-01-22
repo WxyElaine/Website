@@ -14,22 +14,15 @@
                     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
                     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="navbar.js"></script> 
-        <link href="navbar.css" type="text/css" rel="stylesheet" />
+        <link href="mainstyle.css" type="text/css" rel="stylesheet" />
+        <script src="navbar.js" type="text/javascript"></script>
         <script src="index.js" type="text/javascript"></script>
         <link href="index.css" type="text/css" rel="stylesheet" />
     </head>
 
-    <body>
+    <body id="frontpage">
     	<!--Navigation Bar-->
-        <div id="includenavbar"></div>
-        
- <script>
-// $(function(){
-//     $("#includenavbar").load("navbar.html");
-//   $("#front").addClass("active");
-// });
- </script>
+        <?php include_once("navbar.html"); ?>
 
         <!--Welcome Words-->
         <div class="jumbotron" id="logo">
@@ -206,11 +199,7 @@
         </div>
         
         <!--Contact Information-->
-        <div class="jumbotron" id="contactinfo">
-            <div class="contactitem">公司地址</div>
-            <div class="contactitem">联系方式</div>
-            <div class="contactitem">二维码</div>
-        </div>
+        <?php include_once("contact.html"); ?>
 
     </body>
 </html>

@@ -1,39 +1,32 @@
 "use strict";
-/*global fetch*/
-/*global DOMParser*/
+
 /*  
     Xinyi Wang & Yuchen Wang
     01/14/18
-    Company Introduction Page  
+    Unnamed Website  
 */
 
 $(function(){
-    $(document).ready(function(){
-        // include HTML for navigation bar
-        // $("#includenavbar").load("navbar.html"); 
-        load("navbar.html", document.getElementById("includenavbar"));
+    $(document).ready(function() {
 
-        // // make the selected navbar item bold
-        // if (document.getElementById("includenavbar") != null) {
-        //     console.log(document.getElementById("front"));
-        //     $("#front").addClass("active");
-        // }
-
+        // Expand navbar when hover over it
+        // var navbarHeight = $(".").height();
+        // $(".box").mouseenter(function(){
+        //     $(this).animate({
+        //         height: "300"
+        //     });
+        // }).mouseleave(function(){
+        //     $(this).animate({
+        //         height: boxHeight
+        //     });
+        // });
     });
     
-    function load(url, element) {
-        // fetch(url)
-        //     .then(function(response) {
-        //         return response.text()
-        //     })
-        //     .then(function(html) {
-        //         element.innerHTML = html;
-        //     })
-        
-        let req = new XMLHttpRequest();
-        req.open("GET", url, false);
-        req.send(null);
-    
-        element.innerHTML = req.responseText; 
-    }
+    $('ul.nav li.dropdown').hover(
+        function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+        }, function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    });
+
 });

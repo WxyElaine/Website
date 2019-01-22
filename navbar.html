@@ -1,46 +1,87 @@
 <!-- 
     Xinyi Wang & Yuchen Wang
     01/14/18
-    Navigation Bar
+    Navigation Bar content and style
 -->
 
-        <div role="navigation" class="navbar navbar-default navbar-fixed-top">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="navbar-brand">未命名</div>
-            </div>
+<div role="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-brand">未命名</div>
+    </div>
 
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    
-                    <li class="nav-item" id="front">
-                        <a class="nav-link" href="index.html">网站首页<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item" id="intro">
-                        <a class="nav-link" href="intro.html">公司简介<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item" id="food">
-                        <a class="nav-link" href="food.html">农产品及食品<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item" id="ice">
-                        <a class="nav-link" href="ice.html">冰酒<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown" id="wine">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="wine.html">葡萄酒<span class="sr-only">(current)</span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">干红葡萄酒</a></li>
-                            <li><a href="#">干白葡萄酒</a></li>
-                        </ul>
-                    </li>             
-                </ul>  
-            </div>
-        </div>
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li class="nav-item" id="front">
+                <a class="nav-link" href="/website/index.php">网站首页<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" id="intro">
+                <a class="nav-link" href="/website/intro.php">公司简介<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" id="food">
+                <a class="nav-link" href="/website/food.php">农产品及食品<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" id="ice">
+                <a class="nav-link" href="/website/ice.php">冰酒<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="wine" data-toggle="dropdown">葡萄酒<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li id="redwine"><a href="/website/wine/redwine.php">干红葡萄酒</a></li>
+                    <li id="whitewine"><a href="/website/wine/whitewine.php">干白葡萄酒</a></li>
+                </ul>
+            </li>
+        </ul>  
+    </div>
+</div>
         
-        
+<style type="text/css">
+
+/* Nav Bar */
+.navbar-default .navbar-brand {
+    color: #310c0c
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav .nav-item .nav-link:hover, .dropdown-menu li a:hover{
+    color: #884649
+}
+
+.navbar-default .navbar-nav .nav-item .nav-link, .dropdown-menu li a {
+    color: #a58172
+}
+
+.navbar-default .navbar-brand, .carousel-caption {
+    font-size: 1.5em
+}
+
+#whitewine, #redwine {
+    font-size: 1em
+}
+
+.navbar {
+    background-color: #fff4c4;
+    font-size: 0.8em;
+    padding: 0.2em
+}
+
+.collapse {
+    margin-right: 30px
+}
+
+#frontpage #front, #intropage #intro, #foodpage #food, #icepage #ice, #redwinepage #wine, #whitewinepage #wine {
+    background-color: #fff4c4;
+    font-weight: bold
+}
+
+#redwinepage .dropdown-menu #redwine a, #whitewinepage .dropdown-menu #whitewine a {
+    font-weight: bold
+}
+</style>
