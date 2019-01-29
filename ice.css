@@ -17,18 +17,40 @@
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
-    overflow: scroll;
+    overflow: nowrap;
     height: 13em;
 }
 
-.thumbnail a img {
-    height: 90%;
+.product-img {
+    height: 10em;
 }
 
-.caption {
-    height: 10%;
+.product-info {
+    cursor: pointer;
 }
 
-.caption p {
-    font-size: 80%;
+.product-info .product-caption {
+    font-size: 0.6em;
+}
+
+.product-caption {
+    margin-top: 5%;
+}
+
+
+/* Modal box BEGIN */
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }

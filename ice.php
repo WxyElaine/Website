@@ -61,8 +61,21 @@
         
         <!--product gallery-->
         <div class="jumbotron">
-            <div class="row" id="productlist">
-            </div>
+            <div class="row" id="productlist"></div>
+                <!--<div class="col-md-2">-->
+                <!--    <div class="thumbnail">-->
+                <!--        <a href="#">-->
+                <!--            <img src="/website/pic/oil.jpg" alt="意大利斯玛葡萄籽油">-->
+                <!--            <div class="caption">-->
+                <!--                <p>意大利斯玛葡萄籽油</p>-->
+                <!--            </div>-->
+                <!--        </a>-->
+                <!--    </div>-->
+                <!--</div>-->
+        
+            <!-- Modal -->
+            <div id="modal-container"></div>
+            
         </div>
         
         <!--Contact Information-->

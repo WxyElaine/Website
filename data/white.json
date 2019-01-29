@@ -1,0 +1,64 @@
+[{
+		"0": {
+			"name": "月光梦幻VQA干白",
+			"engl": "Moonlight Magic Vidal Blanc",
+			"country": "加拿大原瓶原装进口",
+			"producer": "钻石酒庄",
+			"type": "维代尔",
+			"abv": "13.0&#37;&#47;Vol",
+			"volume": "750ml",
+			"storage": "避光、卧放",
+			"expiration": "8年",
+			"description": "有苹果、热带水果的芬芳及甜蜜香味。\n搭配鸡肉、清淡的鱼或沙拉。",
+			"img": "/wine/white/pic/1.png"
+		}
+	},
+	{
+		"1": {
+			"name": "20蜜蜂霞多丽干白",
+			"engl": "20 Bees Chardonnay",
+			"country": "加拿大原瓶原装进口",
+			"producer": "钻石庄园酒庄",
+			"type": "霞多丽",
+			"abv": "12.5&#37;&#47;Vol",
+			"volume": "750ml",
+			"juice": "100&#37;葡萄汁",
+			"storage": "避光、卧放",
+			"expiration": "7年",
+			"description": "橡木及奶油的混合清香。\n搭配烤鸡肉，龙虾，火鸡和烟熏食品，意大利面。",
+			"img": "/wine/white/pic/2.png"
+		}
+	},
+	{
+		"2": {
+			"name": "伯瀑布VQA雷司令干白",
+			"engl": "Niagara Falls Riesling White Wine",
+			"country": "加拿大原瓶原装进口",
+			"producer": "哈伯庄园酒庄",
+			"type": "雷司令",
+			"abv": "10.0&#37;&#47;Vol",
+			"volume": "750ml",
+			"juice": "100&#37;葡萄汁",
+			"storage": "避光、卧放",
+			"expiration": "10年",
+			"description": "新鲜成熟的青柠和其他橘柑香味混合蜜糖层次丰富。\n搭配头盘、沙拉，肉品等，佐餐酒。",
+			"img": "/wine/white/pic/3.png"
+		}
+	},
+	{
+		"3": {
+			"name": "哈伯VQA维代尔干白",
+			"engl": "Harbor Vidal",
+			"country": "加拿大原瓶原装进口",
+			"producer": "哈伯庄园酒庄",
+			"type": "维代尔",
+			"abv": "12.0&#37;&#47;Vol",
+			"volume": "750ml",
+			"juice": "100&#37;葡萄汁",
+			"storage": "避光、卧放",
+			"expiration": "12年",
+			"description": "酸度鲜郁，带有柑橘和桃子的香味。\n搭配沙拉、开胃菜、鸡肉和清淡的鱼。",
+			"img": "/wine/white/pic/4.png"
+		}
+	}
+]

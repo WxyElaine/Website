@@ -1,5 +1,5 @@
 Ice wine: 
-    image gallery cannot center image
-    display a window containing detailed info when clicked
+    popup window: add a "next" button
+    
 
 Expand navbar when hover

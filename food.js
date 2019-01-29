@@ -12,12 +12,12 @@ $(function(){
         // load ice.json and insert HTML elements for each ice wine product
         loadJSON(function(response) {
             // parse JSON string into object
-            var actual_JSON = JSON.parse(response);
+            let actual_JSON = JSON.parse(response);
             // create HTML element for each product
-            for (var i = 0; i < actual_JSON.length; i++) { 
+            for (let i = 0; i < actual_JSON.length; i++) { 
                 console.log(actual_JSON[i]);
-                var product = actual_JSON[i];
-                var cell = "<div class=\"col-md-3\"><div class=\"thumbnail\"><a href=\"" +
+                let product = actual_JSON[i];
+                let cell = "<div class=\"col-md-3\"><div class=\"thumbnail\"><a href=\"" +
                         product.href + "\">" +
                         "<img src=\"" + product.img + "\" alt=\"" + product.name + ">" +
                         "<div class=\"caption\"><p>" + product.name + "</p></div></a></div></div>";
@@ -32,7 +32,7 @@ $(function(){
      * Get the local JSON file containing data for ice wine.
      */
     function loadJSON(callback) {   
-        var xobj = new XMLHttpRequest();
+        let xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
         xobj.open('GET', '/data/food.json', true);
         xobj.onreadystatechange = function () {

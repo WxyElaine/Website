@@ -10,7 +10,7 @@ $(function(){
     $(document).ready(function() {
 
         // Expand navbar when hover over it
-        // var navbarHeight = $(".").height();
+        // let navbarHeight = $(".").height();
         // $(".box").mouseenter(function(){
         //     $(this).animate({
         //         height: "300"
