@@ -1,4 +1,5 @@
 "use strict";
+/* global $*/
 
 /*  
     Xinyi Wang & Yuchen Wang
@@ -7,6 +8,17 @@
 */
 
 $(function(){
+    const TRANSLATION = {
+		"country": "原产国",
+		"producer": "制造商",
+		"type": "葡萄品种",
+		"abv": "酒精度",
+		"volume": "容量",
+		"juice": "原果汁含量",
+		"storage": "储藏",
+		"expiration": "保质期"
+	};
+    
     $(document).ready(function() {
 
         // load ice.json and insert HTML elements for each ice wine product
@@ -16,28 +28,13 @@ $(function(){
             // create HTML element for each product
             for (let i = 0; i < actual_JSON.length; i++) { 
                 let product = actual_JSON[i][i];
-                let cell = createProduct(product);
+                let cell = createProduct(product, i);
                 // append the new element
                 $("#productlist").append(cell);
-                createmodal(product);
+                createModal(product, i);
             }
         });
-        
-        
-        
-        
-        
-        
-        // for the popup window when hover
-        $(".trigger_popup_fricc").click(function(){
-           $('.hover_bkgr_fricc').show();
-        });
-        $('.hover_bkgr_fricc').click(function(){
-            $('.hover_bkgr_fricc').hide();
-        });
-        $('.popupCloseButton').click(function(){
-            $('.hover_bkgr_fricc').hide();
-        });
+
     });
 
     /**
@@ -60,7 +57,7 @@ $(function(){
      * Create a product div using product information.
      * @param product {JSON} JSON object containing information of the product
      */
-    function createProduct(product) {
+    function createProduct(product, index) {
         let col_md_2 = document.createElement("div");
         let thumbnail = document.createElement("div");
         col_md_2.classList.add("col-md-2");
@@ -68,7 +65,7 @@ $(function(){
         let productInfo = document.createElement("div");
         productInfo.classList.add("product-info");
         productInfo.setAttribute("data-toggle", "modal");
-        productInfo.setAttribute("data-target", "#exampleModalCenter");
+        productInfo.setAttribute("data-target", "#modal" + index);
         let img = document.createElement("img");
         img.src = product.img;
         img.classList.add("product-img");
@@ -82,30 +79,16 @@ $(function(){
         return col_md_2;
     }
     
-    /*
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">产品信息</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body"></div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    */
-    
-    function createmodal(product) {
+    /**
+     * Create a modal for a product to display its information.
+     * @param product {JSON} information of the object
+     * @param index {int} unique identifier of the product
+     */
+    function createModal(product, index) {
         let modal = document.createElement("div");
         $(modal).addClass("modal");
         $(modal).addClass("fade");
-        $(modal).attr("id", "exampleModalCenter");
+        $(modal).attr("id", "modal" + index);
         $(modal).attr("tabindex", "-1");
         $(modal).attr("role", "dialog");
         $(modal).attr("aria-labelledby", "exampleModalCenterTitle");
@@ -131,7 +114,9 @@ $(function(){
         modal_header.appendChild(button);
         let modal_body = document.createElement("div");
         $(modal_body).addClass("modal-body");
-        $(modal_body).text(product.name);
+        
+        loadInfo(modal_body, product);
+        
         let modal_footer = document.createElement("div");
         $(modal_footer).addClass("modal-footer");
         let close_button = document.createElement("button");
@@ -147,6 +132,49 @@ $(function(){
         modal_dialog.appendChild(modal_content);
         modal.appendChild(modal_dialog);
         document.getElementById("modal-container").appendChild(modal);
+    }
+    
+    /**
+     * Load information of a product into a modal body.
+     * @param modal_body {DOM Object} container for the product information
+     * @param product {JSON} information of the product
+     */
+    function loadInfo(modal_body, product) {
+        let info_body = document.createElement("div");
+        $(info_body).addClass("info-body");
+        let keys = Object.keys(product);
+        let img = document.createElement("img");
+        img.classList.add("info-img");
+        for (let i = 0; i < keys.length; i++) {
+            let key = keys[i];
+            let value = product[key];
+            if (key === "name") {
+                let title = document.createElement("h2");
+                title.classList.add("info-title")
+                title.innerText = value;
+                info_body.appendChild(title);
+            } else if (key === "special") {
+                let special = document.createElement("p");
+                special.classList.add("info-special");
+                special.innerText = value;
+                info_body.appendChild(special);
+            } else if (key === "description") {
+                let description = document.createElement("p");
+                description.classList.add("info-description");
+                description.innerText = value;
+                info_body.appendChild(description);
+            } else if (key === "img") {
+                img.src = value;
+            } else {
+                let translated = TRANSLATION[key];
+                let subInfo = document.createElement("p");
+                subInfo.classList.add("subinfo")
+                subInfo.innerText = translated + "：" + value;
+                info_body.appendChild(subInfo);
+            }
+        }
+        modal_body.appendChild(img);
+        modal_body.appendChild(info_body);
     }
     
 });

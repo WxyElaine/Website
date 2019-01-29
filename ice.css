@@ -49,8 +49,40 @@
   }
 }
 
+.modal {
+    overflow-y: scroll;
+}
+
 .modal-dialog {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
+  width: 80%;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-body .info-title {
+    margin-bottom: 2%;
+}
+
+.info-body .subinfo {
+    line-height: 1.8em;
+    margin-bottom: 0px;
+    font-size: 0.8em;
+}
+
+.info-body .info-description {
+    margin-bottom: 1%;
+    margin-top: 5%;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+.info-body .info-special {
+    color: orange;
+    line-height: 1.8em;
 }
