@@ -8,11 +8,9 @@
 
 $(function(){
     $(document).ready(function() {
-
         // handle the swipe event on div.carousel
         $( "div.carousel" ).on( "swiperight", swiperightHandler );
         $( "div.carousel" ).on( "swipeleft", swipeleftHandler );
-
     });
 
     function swiperightHandler(event) {

@@ -1,0 +1,112 @@
+/*  
+    Xinyi Wang & Yuchen Wang
+    01/14/18
+    Product Gallery Style
+*/
+
+/* Product Gallery */
+.row {
+    margin: 50px;
+    margin-top: 20px;
+}
+
+.thumbnail {
+    display: block;
+    padding: 5px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    overflow: nowrap;
+    height: 13em;
+}
+
+.product-img {
+    height: 10em;
+}
+
+.product-info {
+    cursor: pointer;
+}
+
+.product-info .product-caption {
+    font-size: 0.6em;
+}
+
+.product-caption {
+    margin-top: 5%;
+}
+
+/* Modal Box */
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal {
+    overflow-y: scroll;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 80%;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-body .info-title {
+    color: #3c2f2f;
+    margin-bottom: 2%;
+}
+
+.info-body .subinfo {
+    line-height: 1.8em;
+    margin-bottom: 0px;
+}
+
+.info-body .info-description {
+    color: #4b3832;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    line-height: 2em;
+}
+
+.info-body .subinfo, .info-body .info-description {
+    font-size: 0.7em;
+}
+
+.info-body .info-special {
+    color: #854442;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.info-img {
+    height: 20em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.modal-footer button {
+    background-color: #4b3832;
+    border-color: #4b3832;
+    color: #fff4e6;
+}
+
+.modal-footer button:hover {
+    background-color: #854442;
+    border-color: #854442;
+}

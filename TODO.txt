@@ -1,5 +1,14 @@
+Use wine.php or not???
+    how to add href to #wine?
+
 Ice wine: 
     popup window: add a "next" button
     
-
+food.php
+    integrate gallery.js and gallery.css into food.js
+    apply gallery.css into food page
+    
 Expand navbar when hover
+
+wine images
+    edit all the image size

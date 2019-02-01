@@ -1,13 +1,13 @@
 <!-- 
     Xinyi Wang & Yuchen Wang
     01/14/18
-    Product: Produce and Food
+    Product: Wine
 -->
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>农产品及食品</title>
+        <title>葡萄酒</title>
         <meta charset="utf-8"> 
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
@@ -17,22 +17,13 @@
         <!--Customized stylesheets and js-->
         <link href="/css/mainstyle.css" type="text/css" rel="stylesheet" />
         <script src="/js/navbar.js" type="text/javascript"></script>
-        <script src="/sites/food.js" type="text/javascript"></script>
-        <link href="/sites/food.css" type="text/css" rel="stylesheet" />
     </head>
 
-    <body id="foodpage">
+    <body id="intropage">
         <!--Navigation Bar-->
         <?php include_once("navbar.html"); ?>
         
-        <!--Product Image Gallery-->
-        <div class="jumbotron">
-            <div class="row" id="productlist">
-            </div>
-        </div>
-        
         <!--Contact Information-->
         <?php include_once("contact.html"); ?>
-        
     </body>
 </html>

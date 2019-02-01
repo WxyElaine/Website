@@ -6,12 +6,12 @@
 			"country": "加拿大原瓶原装进口",
 			"producer": "湖景酒庄",
 			"type": "100%赤霞珠",
-			"abv": "13.0&#37;&#47;Vol",
+			"abv": "13.0%Vol",
 			"volume": "750ml",
 			"storage": "避光、卧放",
 			"expiration": "12年",
 			"description": "浓烈的石榴红色，完美结合黑醋栗、李子、香草和橡木的芬芳。\n经典干红，可搭配牛肉。",
-			"img": "/wine/red/pic/1.png"
+			"img": "/wine/pic/red/1.png"
 		}
 	},
 	{
@@ -21,13 +21,13 @@
 			"country": "加拿大原瓶原装进口",
 			"producer": "湖景酒庄",
 			"type": "梅洛",
-			"abv": "13.0&#37;&#47;Vol",
+			"abv": "13.0%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "10年",
 			"description": "丰富的单宁，完美融合黑色浆果，梅子及多种香果味道。\n可搭配任何的肉类及奶酪。",
-			"img": "/wine/red/pic/2.png"
+			"img": "/wine/pic/red/2.png"
 		}
 	},
 	{
@@ -37,109 +37,109 @@
 			"country": "加拿大原瓶原装进口",
 			"producer": "湖景酒庄",
 			"type": "西拉",
-			"abv": "13.0&#37;&#47;Vol",
+			"abv": "13.0%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "10年",
 			"description": "拥有梅子、樱桃、黑巧克力和黑胡椒等众多香味。\n可与与烤肉及干奶酪配伍。",
-			"img": "/wine/red/pic/3.png"
+			"img": "/wine/pic/red/3.png"
 		}
 	},
 	{
 		"3": {
-			"name": "伊斯戴尔黑标卡本纳品丽珠干红",
+			"name": "伊斯戴尔黑标\n卡本纳品丽珠干红",
 			"engl": "EastDell Black Label Cabernet Franc",
 			"country": "加拿大原瓶原装进口",
 			"producer": "伊斯戴尔庄园酒庄",
 			"type": "卡本纳品丽珠",
-			"abv": "13.0&#37;&#47;Vol",
+			"abv": "13.0%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "10年",
 			"description": "单宁和酸的含量都比较低，带有覆盆子和紫罗兰的香气酒香优雅宜人，陈酿后口感更佳。\n可与牛排，烤肉，披萨等搭配。",
-			"img": "/wine/red/pic/4.png"
+			"img": "/wine/pic/red/4.png"
 		}
 	},
 	{
 		"4": {
-			"name": "伊斯戴尔黑标卡本纳梅洛干红葡萄酒",
+			"name": "伊斯戴尔黑标\n卡本纳梅洛干红葡萄酒",
 			"engl": "EastDell Black Label Cabernet Merlot",
 			"country": "加拿大原瓶原装进口",
 			"producer": "伊斯戴尔庄园酒庄",
 			"type": "卡本纳梅洛",
-			"abv": "13.0&#37;&#47;Vol",
+			"abv": "13.0%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "10年",
 			"description": "深红色的酒体由赤霞珠梅洛制成，浓郁的巧克力味与黑莓味道交织。\n可与牛排，烤肉，披萨等搭配。",
-			"img": "/wine/red/pic/5.png"
+			"img": "/wine/pic/red/5.png"
 		}
 	},
 	{
 		"5": {
-			"name": "伊斯戴尔黑标西拉干红葡萄酒",
+			"name": "伊斯戴尔黑标\n西拉干红葡萄酒",
 			"engl": "EastDell Black Label Shiraz",
 			"country": "加拿大原瓶原装进口",
 			"producer": "伊斯戴尔庄园酒庄",
 			"type": "西拉",
-			"abv": "13.0&#37;&#47;Vol（每个批次略有不同）",
+			"abv": "13.0%Vol（每个批次略有不同）",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "10年",
 			"description": "带有李子、樱桃和烟熏的芬芳；口感上融合了黑胡椒，红莓的口味。\n与炖肉、羊肉搭配。",
-			"img": "/wine/red/pic/6.png"
+			"img": "/wine/pic/red/6.png"
 		}
 	},
 	{
 		"6": {
-			"name": "伊斯戴尔黑标卡本纳西拉干红葡萄酒",
+			"name": "伊斯戴尔黑标\n卡本纳西拉干红葡萄酒",
 			"engl": "EastDell Black Label Cabernet Shiraz",
 			"country": "加拿大原瓶原装进口",
 			"producer": "伊斯戴尔庄园酒庄",
 			"type": "卡本纳西拉",
-			"abv": "13.0&#37;&#47;Vol",
+			"abv": "13.0%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "10年",
 			"description": "融合了品丽珠，赤霞珠和西拉的味道；同时有黑加仑、黑樱桃、树莓和黑胡椒的芳香。\n可搭配肉饼、红辣椒烤香肠。",
-			"img": "/wine/red/pic/7.png"
+			"img": "/wine/pic/red/7.png"
 		}
 	},
 	{
 		"7": {
-			"name": "伊斯戴尔卡本纳梅洛干红葡萄酒",
+			"name": "伊斯戴尔卡本纳\n梅洛干红葡萄酒",
 			"engl": "EastDell White Label Cabernet Merlot",
 			"country": "加拿大原瓶原装进口",
 			"producer": "伊斯戴尔庄园酒庄",
 			"type": "维代尔",
-			"abv": "12.0&#37;&#47;Vol",
+			"abv": "12.0%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "10年",
 			"description": "非常鲜活的酸度，具有柑橘和桃子的香味。\n搭配沙拉、开胃菜、鸡肉和清淡的鱼。",
-			"img": "/wine/red/pic/8.png"
+			"img": "/wine/pic/red/8.png"
 		}
 	},
 	{
 		"8": {
-			"name": "午夜香吻黑巴克卡本内VQA干红",
+			"name": "午夜香吻黑巴克\n卡本内VQA干红",
 			"engl": "Kiss Midnight Kiss Red Wine",
 			"country": "加拿大原瓶原装进口",
 			"producer": "钻石庄园酒庄",
 			"type": "黑巴克、卡本内",
-			"abv": "12.5&#37;&#47;Vol",
+			"abv": "12.5%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "7年",
 			"description": "混合了黑巴克和卡本内两种不同的葡萄，口味均衡。\n搭配各种肉类和沙拉。",
-			"img": "/wine/red/pic/9.png"
+			"img": "/wine/pic/red/9.png"
 		}
 	},
 	{
@@ -149,13 +149,13 @@
 			"country": "加拿大原瓶原装进口",
 			"producer": "钻石庄园酒庄",
 			"type": "黑巴克",
-			"abv": "12.5&#37;&#47;Vol",
+			"abv": "12.5%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "7年",
 			"description": "红莓果、香料和烟熏等多层次的丰富味道。\n搭配各种牛肉、烤肉和蔬菜。",
-			"img": "/wine/red/pic/10.png"
+			"img": "/wine/pic/red/10.png"
 		}
 	},
 	{
@@ -164,13 +164,13 @@
 			"country": "加拿大原瓶原装进口",
 			"producer": "丹·爱克罗庄园酒庄",
 			"type": "卡本纳、梅洛",
-			"abv": "13.0&#37;&#47;Vol（每个批次略有不同）",
+			"abv": "13.0%Vol（每个批次略有不同）",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "10年",
 			"description": "深红色的酒体散发着浓郁的巧克力和黑莓，雪松和香草交织的复杂口味。\n搭配牛排，烤肉或者披萨。",
-			"img": "/wine/red/pic/11.png"
+			"img": "/wine/pic/red/11.png"
 		}
 	},
 	{
@@ -180,13 +180,13 @@
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "赤霞珠",
-			"abv": "13.5&#37;&#47;Vol",
+			"abv": "13.5%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "12年",
 			"description": "具有青椒，黑醋栗及黑莓等深色浆果的饱满浓郁风味。\n非常适合搭配与牛排。",
-			"img": "/wine/red/pic/12.png"
+			"img": "/wine/pic/red/12.png"
 		}
 	},
 	{
@@ -196,13 +196,13 @@
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "赤霞珠、梅洛",
-			"abv": "13.5&#37;&#47;Vol（每个批次略有不同）",
+			"abv": "13.5%Vol（每个批次略有不同）",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "7年",
 			"description": "带有黑莓、樱桃的甜味和香料的辛香。滑顺，悠长。\n搭配任何红肉食物,为佐餐酒。",
-			"img": "/wine/red/pic/13.png"
+			"img": "/wine/pic/red/13.png"
 		}
 	},
 	{
@@ -212,13 +212,13 @@
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "黑巴克",
-			"abv": "12.0&#37;&#47;Vol（每个批次略有不同）",
+			"abv": "12.0%Vol（每个批次略有不同）",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "8年",
 			"description": "具有黑莓、李子和巧克力的芬芳。\n适合搭配红肉。",
-			"img": "/wine/red/pic/14.png"
+			"img": "/wine/pic/red/14.png"
 		}
 	},
 	{
@@ -228,45 +228,45 @@
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "赤霞珠、品丽珠、梅洛",
-			"abv": "12.5&#37;&#47;Vol",
+			"abv": "12.5%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "5年",
 			"description": "黑果和山莓香味成熟芬芳。\n搭配烤肉，晚餐佐餐酒。",
-			"img": "/wine/red/pic/15.png"
+			"img": "/wine/pic/red/15.png"
 		}
 	},
 	{
 		"15": {
-			"name": "尼亚加拉瀑布VQA赤霞珠干红",
+			"name": "尼亚加拉瀑布VQA\n赤霞珠干红",
 			"engl": " Niagara Falls Cabernet Sauvignon Red Wine",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "赤霞珠",
-			"abv": "13.0&#37;&#47;Vol",
+			"abv": "13.0%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "10年",
 			"description": "带有青椒，黑醋栗及莓等深色浆果的典雅风味。\n搭配牛排。",
-			"img": "/wine/red/pic/16.png"
+			"img": "/wine/pic/red/16.png"
 		}
 	},
 	{
 		"16": {
-			"name": "尼亚加拉瀑布VQA赤霞珠梅洛干红",
+			"name": "尼亚加拉瀑布VQA\n赤霞珠梅洛干红",
 			"engl": "Niagara Falls Cabernet Sauvignon Merlot Red Wine",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "赤霞珠、梅洛",
-			"abv": "13.0&#37;&#47;Vol",
+			"abv": "13.0%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "10年",
 			"description": "黑果、梅子酱和烟草的独特气味。\n搭配任何红肉食物，佐餐酒。",
-			"img": "/wine/red/pic/17.png"
+			"img": "/wine/pic/red/17.png"
 		}
 	},
 	{
@@ -276,13 +276,13 @@
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "巴克、品丽珠",
-			"abv": "13.0&#37;&#47;Vol",
+			"abv": "13.0%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "7年",
 			"description": "红果、黑果和李子的芬芳完美融合。\n搭配奶酪，烤肉，野味。",
-			"img": "/wine/red/pic/18.png"
+			"img": "/wine/pic/red/18.png"
 		}
 	},
 	{
@@ -292,13 +292,13 @@
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "巴克、赤霞珠",
-			"abv": "13.0&#37;&#47;Vol",
+			"abv": "13.0%Vol",
 			"volume": "750ml",
-			"juice": "100&#37;葡萄汁",
+			"juice": "100%葡萄汁",
 			"storage": "避光、卧放",
 			"expiration": "7年",
 			"description": "具有成熟黑果、山莓和李子的香气和风味。\n搭配红肉，野味。",
-			"img": "/wine/red/pic/19.png"
+			"img": "/wine/pic/red/19.png"
 		}
 	}
 ]

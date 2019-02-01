@@ -1,0 +1,23 @@
+/*  
+    Xinyi Wang & Yuchen Wang
+    01/14/18
+    Main style for the whole website 
+*/
+
+body {
+    background-color: #fff4e6;
+    /*font-family: fantasy;*/
+    font-size: 2.2em;
+    line-height: 2.8em;
+    padding-top: 80px;
+    text-align: center;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #fff4e6;
+}
+
+.jumbotron h1 {
+    font-size: 2.5em;
+}

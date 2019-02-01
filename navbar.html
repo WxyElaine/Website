@@ -44,44 +44,50 @@
 </div>
         
 <style type="text/css">
+    .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+        color: #fff4e6
+    }
+    
+    .navbar-default .navbar-nav .nav-item .nav-link, .dropdown-menu li a {
+        color: #cbaf95
+    }
+    
+    .navbar-default .navbar-nav>.open>a:focus {
+        background-color: #4b3832
+    }
+    
+    .navbar-default .navbar-nav .nav-item .nav-link:hover, 
+    .dropdown-menu li a:hover{
+        color: #915654
+    }
+    
+    .dropdown-menu li a:hover {
+        background-color: #4b3832
+    }
+    
+    .navbar-default .navbar-brand, .carousel-caption {
+        font-size: 1.5em
+    }
+    
+    #whitewine, #redwine {
+        font-size: 1em
+    }
+    
+    .navbar, .dropdown-menu {
+        background-color: #4b3832;
+        font-size: 0.8em;
+        padding: 0.2em
+    }
 
-/* Nav Bar */
-.navbar-default .navbar-brand {
-    color: #310c0c
-}
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav .nav-item .nav-link:hover, .dropdown-menu li a:hover{
-    color: #884649
-}
-
-.navbar-default .navbar-nav .nav-item .nav-link, .dropdown-menu li a {
-    color: #a58172
-}
-
-.navbar-default .navbar-brand, .carousel-caption {
-    font-size: 1.5em
-}
-
-#whitewine, #redwine {
-    font-size: 1em
-}
-
-.navbar {
-    background-color: #fff4c4;
-    font-size: 0.8em;
-    padding: 0.2em
-}
-
-.collapse {
-    margin-right: 30px
-}
-
-#frontpage #front, #intropage #intro, #foodpage #food, #icepage #ice, #redwinepage #wine, #whitewinepage #wine {
-    background-color: #fff4c4;
-    font-weight: bold
-}
-
-#redwinepage .dropdown-menu #redwine a, #whitewinepage .dropdown-menu #whitewine a {
-    font-weight: bold
-}
+    .collapse {
+        margin-right: 30px
+    }
+    
+    #frontpage #front a, #intropage #intro a, #foodpage #food a, 
+    #icepage #ice a, #redwinepage #wine, #whitewinepage #wine,
+    #redwinepage .dropdown-menu #redwine a, #whitewinepage .dropdown-menu #whitewine a,
+    .navbar-default .navbar-nav>.open>a:focus {
+        color: #fff4e6;
+        font-weight: bold
+    }
 </style>
