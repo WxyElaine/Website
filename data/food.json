@@ -1,26 +1,48 @@
-[
-    { "name":"诺思格燕麦",
-      "href":"/food/oat.php",
-      "img":"/food/pic/oat.jpg"
-    },
-    { "name":"格兰特牛奶",
-      "href":"/food/milk.php",
-      "img":"/food/pic/milk.jpg"
-    },
-    { "name":"意大利斯玛葡萄籽油",
-      "href":"/food/oil.php",
-      "img":"/food/pic/oil.jpg"
-    },
-    { "name":"大草原面粉",
-      "href":"/food/flour.php",
-      "img":"/food/pic/flour.jpg"
-    },
-    { "name":"小猪湾干海参",
-      "href":"/food/sea.php",
-      "img":"/food/pic/sea.jpg"
-    },
-    { "name":"Go Milk 高美可奶粉",
-      "href":"/food/powder.php",
-      "img":"/food/pic/powder.jpg"
-    }
+[{
+		"0": {
+			"name": "诺思格燕麦",
+			"href": "/food/oat.php",
+			"img": "/food/pic/oat.jpg",
+			"type": "农产品",
+			"introtext": "",
+			"highlight": "",
+			"types": "",
+			"tip": ""
+		}
+	},
+	{
+		"1": {
+			"name": "格兰特牛奶",
+			"href": "/food/milk.php",
+			"img": "/food/pic/milk.jpg"
+		}
+	},
+	{
+		"2": {
+			"name": "意大利斯玛葡萄籽油",
+			"href": "/food/oil.php",
+			"img": "/food/pic/oil.jpg"
+		}
+	},
+	{
+		"3": {
+			"name": "大草原面粉",
+			"href": "/food/flour.php",
+			"img": "/food/pic/flour.jpg"
+		}
+	},
+	{
+		"4": {
+			"name": "小猪湾干海参",
+			"href": "/food/sea.php",
+			"img": "/food/pic/sea.jpg"
+		}
+	},
+	{
+		"5": {
+			"name": "Go Milk 高美可奶粉",
+			"href": "/food/powder.php",
+			"img": "/food/pic/powder.jpg"
+		}
+	}
 ]

@@ -18,10 +18,34 @@ const TRANSLATION = {
 	"expiration": "保质期"
 };
 
+let productType = "";
+let galleryLayout = "";
+let modalLayout = "";
+
 /**
  * Get the local JSON file from the given file path.
+ * @filepath {string} path of the JSON file
+ * @callback {function} function to call after JSON is loaded
  */
-function loadJSON(filepath, callback) {   
+function loadJSON(filepath, callback) {
+    // determine the product type of JSON data
+    const splitFilepath = filepath.split("/");
+    productType = splitFilepath[splitFilepath.length - 1].split(".")[0];
+    // add specific layout identifier to different product type
+    galleryLayout = "col-md-3";
+    if (productType == "ice") {
+        galleryLayout = "col-md-2";
+        modalLayout = "modalice";
+    } else if (productType == "red") {
+        modalLayout = "modalred";
+    } else if (productType == "white") {
+        modalLayout = "modalwhite";
+    } else if (productType == "food") {
+        // TODO
+        
+        
+    }
+    // load JSON
     let xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
     xobj.open('GET', filepath, true);
@@ -46,34 +70,63 @@ function loadJSONCallback(response) {
         let cell = createProduct(product, i);
         // append the new element
         $("#productlist").append(cell);
-        createModal(product, i);
+        if (productType != "food") {
+            createModal(product, i);
+        }
+    }
+    if (productType != "food") {
+        // add functionalities to "prev" and "next" button in each modal
+        $("div[id^='modalnum']").each(function(){
+            var currentModal = $(this);
+            // click prev
+            currentModal.find('.btn-prev').click(function(){
+                currentModal.modal('hide');
+                currentModal.closest("div[id^='modalnum']").prevAll("div[id^='modalnum']").first().modal('show'); 
+            });
+            // click next
+            currentModal.find('.btn-next').click(function(){
+                currentModal.modal('hide');
+                currentModal.closest("div[id^='modalnum']").nextAll("div[id^='modalnum']").first().modal('show');
+            });
+        });
     }
 }
 
 /**
  * Create a product div using product information.
  * @param product {JSON} JSON object containing information of the product
+ * @param index {int} unique identifier of the product
  */
 function createProduct(product, index) {
-    let col_md_2 = document.createElement("div");
+    let gridItem = document.createElement("div");
     let thumbnail = document.createElement("div");
-    col_md_2.classList.add("col-md-2");
+    gridItem.classList.add(galleryLayout);
     thumbnail.classList.add("thumbnail");
     let productInfo = document.createElement("div");
     productInfo.classList.add("product-info");
-    productInfo.setAttribute("data-toggle", "modal");
-    productInfo.setAttribute("data-target", "#modal" + index);
+    if (productType != "food") {
+        productInfo.setAttribute("data-toggle", "modal");
+        productInfo.setAttribute("data-target", "#modalnum" + index);
+    }
     let img = document.createElement("img");
     img.src = product.img;
     img.classList.add("product-img");
     let caption = document.createElement("p");
     caption.innerText = product.name;
     caption.classList.add("product-caption");
-    productInfo.appendChild(img);
-    productInfo.appendChild(caption);
+    if (productType != "food") {
+        productInfo.appendChild(img);
+        productInfo.appendChild(caption);
+    } else {
+        let link = document.createElement("a");
+        link.setAttribute("href", product.href);
+        link.appendChild(img);
+        link.appendChild(caption);
+        productInfo.appendChild(link);
+    }
     thumbnail.appendChild(productInfo);
-    col_md_2.appendChild(thumbnail);
-    return col_md_2;
+    gridItem.appendChild(thumbnail);
+    return gridItem;
 }
 
 /**
@@ -85,7 +138,8 @@ function createModal(product, index) {
     let modal = document.createElement("div");
     $(modal).addClass("modal");
     $(modal).addClass("fade");
-    $(modal).attr("id", "modal" + index);
+    $(modal).addClass(modalLayout);
+    $(modal).attr("id", "modalnum" + index);
     $(modal).attr("tabindex", "-1");
     $(modal).attr("role", "dialog");
     $(modal).attr("aria-labelledby", "exampleModalCenterTitle");
@@ -116,12 +170,29 @@ function createModal(product, index) {
     
     let modal_footer = document.createElement("div");
     $(modal_footer).addClass("modal-footer");
+    // go to previous product button
+    let prev_button = document.createElement("button");
+    $(prev_button).attr("type", "button");
+    $(prev_button).addClass("btn");
+    $(prev_button).addClass("btn-default");
+    $(prev_button).addClass("btn-prev");
+    $(prev_button).text("上一个");
+    // go to next product button
+    let next_button = document.createElement("button");
+    $(next_button).attr("type", "button");
+    $(next_button).addClass("btn");
+    $(next_button).addClass("btn-default");
+    $(next_button).addClass("btn-next");
+    $(next_button).text("下一个");
+    // close window button
     let close_button = document.createElement("button");
     $(close_button).attr("type", "button");
     $(close_button).addClass("btn");
-    $(close_button).addClass("btn-primary");
+    $(close_button).addClass("btn-default");
     $(close_button).attr("data-dismiss", "modal");
     $(close_button).text("关闭");
+    modal_footer.appendChild(prev_button);
+    modal_footer.appendChild(next_button);
     modal_footer.appendChild(close_button);
     modal_content.appendChild(modal_header);
     modal_content.appendChild(modal_body);
@@ -178,3 +249,6 @@ function loadInfo(modal_body, product) {
     modal_body.appendChild(img);
     modal_body.appendChild(info_body);
 }
+
+
+

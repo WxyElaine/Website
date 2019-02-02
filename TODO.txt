@@ -1,14 +1,11 @@
+gallery.css
+    animation direction for next and prev + when switching inside popup window, do not fade the background
+
 Use wine.php or not???
     how to add href to #wine?
 
-Ice wine: 
-    popup window: add a "next" button
-    
 food.php
-    integrate gallery.js and gallery.css into food.js
-    apply gallery.css into food page
-    
-Expand navbar when hover
+    turn data in each page into JSON
+    add images to each food page
 
-wine images
-    edit all the image size
+Expand navbar when hover

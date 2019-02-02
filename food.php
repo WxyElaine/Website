@@ -17,8 +17,8 @@
         <!--Customized stylesheets and js-->
         <link href="/css/mainstyle.css" type="text/css" rel="stylesheet" />
         <script src="/js/navbar.js" type="text/javascript"></script>
-        <script src="/sites/food.js" type="text/javascript"></script>
-        <link href="/sites/food.css" type="text/css" rel="stylesheet" />
+        <script src="/js/gallery.js" type="text/javascript"></script>
+        <link href="/css/gallery.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
@@ -27,9 +27,12 @@
         
         <!--Product Image Gallery-->
         <div class="jumbotron">
-            <div class="row" id="productlist">
-            </div>
+            <div class="row" id="productlist"></div>
         </div>
+        <script type="text/javascript">
+            // load food.json and insert HTML elements for each food product
+            loadJSON('/data/food.json', loadJSONCallback);
+        </script>
         
         <!--Contact Information-->
         <?php include_once("contact.html"); ?>

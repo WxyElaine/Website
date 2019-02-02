@@ -21,8 +21,12 @@
     height: 13em;
 }
 
+.thumbnail:hover {
+    box-shadow: -5px 0px 10px #e5d7ca, 5px 0px 10px #e5d7ca, 0px -5px 10px #e5d7ca, 0px 5px 10px #e5d7ca;
+}
+
 .product-img {
-    height: 10em;
+    height: 10em !important;
 }
 
 .product-info {
@@ -30,7 +34,20 @@
 }
 
 .product-info .product-caption {
+    color: black;
     font-size: 0.6em;
+}
+
+.product-info a {
+    text-decoration: none;
+}
+
+.product-info a>.product-caption {
+    font-size: 0.8em;
+}
+
+.product-info a img {
+    margin-top: 0.4em;
 }
 
 .product-caption {
@@ -52,6 +69,18 @@
     overflow-y: scroll;
 }
 
+/* remove scroll bar */
+.modal::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+/* faded background */
+.modal-backdrop {
+    background-color: black;
+    opacity: 0.7 !important;
+}
+
 .modal-dialog {
     display: inline-block;
     text-align: left;
@@ -64,9 +93,21 @@
     flex-direction: row;
 }
 
+.info-body {
+    margin-right: 5%;
+}
+
 .info-body .info-title {
-    color: #3c2f2f;
     margin-bottom: 2%;
+}
+
+.info-body .info-title, .info-body .info-engl {
+    color: #3c2f2f;
+}
+
+.info-body .info-engl {
+    font-weight: 400;
+    line-height: 2em;
 }
 
 .info-body .subinfo {
@@ -96,17 +137,40 @@
 
 .info-img {
     height: 20em;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
+}
+
+.modalred .info-img, .modalwhite .info-img {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .modal-footer button {
     background-color: #4b3832;
     border-color: #4b3832;
     color: #fff4e6;
+    outline: none;
 }
 
 .modal-footer button:hover {
     background-color: #854442;
     border-color: #854442;
+    color: #fff4e6;
+}
+
+.modal-footer button:hover:active {
+    background-color: #e5e6eb;
+    border-color: #e5e6eb;
+    color: #4b3832;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+/* animation style for popup window */
+.fade {
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
 }
