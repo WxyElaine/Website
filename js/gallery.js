@@ -110,6 +110,7 @@ function createProduct(product, index) {
     }
     let img = document.createElement("img");
     img.src = product.img;
+    img.alt = product.name;
     img.classList.add("product-img");
     let caption = document.createElement("p");
     caption.innerText = product.name;
@@ -218,8 +219,9 @@ function loadInfo(modal_body, product) {
         let value = product[key];
         if (key === "name") {
             let title = document.createElement("h2");
-            title.classList.add("info-title")
-            title.innerText = value;
+            title.classList.add("info-title");
+            // remove all newline characters in the title
+            title.innerText = value.replace(/\n/g, '');
             info_body.appendChild(title);
         } else if (key === "engl") {
             let engl = document.createElement("p");
@@ -238,6 +240,7 @@ function loadInfo(modal_body, product) {
             info_body.appendChild(description);
         } else if (key === "img") {
             img.src = value;
+            img.alt = product.name;
         } else {
             let translated = TRANSLATION[key];
             let subInfo = document.createElement("p");
@@ -249,6 +252,3 @@ function loadInfo(modal_body, product) {
     modal_body.appendChild(img);
     modal_body.appendChild(info_body);
 }
-
-
-

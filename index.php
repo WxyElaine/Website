@@ -17,8 +17,8 @@
         <!--Customized stylesheets and js-->
         <link href="/css/mainstyle.css" type="text/css" rel="stylesheet" />
         <script src="/js/navbar.js" type="text/javascript"></script>
-        <script src="/sites/index.js" type="text/javascript"></script>
-        <link href="/sites/index.css" type="text/css" rel="stylesheet" />
+        <script src="/index.js" type="text/javascript"></script>
+        <link href="/index.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="frontpage">
@@ -34,46 +34,10 @@
         </div>
 
         <!--Gallery-->
-        <div class="jumbotron" id="gallery">       
+        <div id="gallery" class="jumbotron">       
             <div id="theCarousel" class="carousel slide">
-                <ol class="carousel-indicators">
-                    <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#theCarousel" data-slide-to="1"></li> 
-                    <li data-target="#theCarousel" data-slide-to="2"></li> 
-                    <li data-target="#theCarousel" data-slide-to="3"></li>
-                    <li data-target="#theCarousel" data-slide-to="4"></li>
-                    <li data-target="#theCarousel" data-slide-to="5"></li>
-                    <li data-target="#theCarousel" data-slide-to="6"></li>
-                    <li data-target="#theCarousel" data-slide-to="7"></li>
-                    <li data-target="#theCarousel" data-slide-to="8"></li>
-                    <li data-target="#theCarousel" data-slide-to="9"></li>
-                    <li data-target="#theCarousel" data-slide-to="10"></li>
-                    <li data-target="#theCarousel" data-slide-to="11"></li>
-                    <li data-target="#theCarousel" data-slide-to="12"></li>
-                    <li data-target="#theCarousel" data-slide-to="13"></li>
-                    <li data-target="#theCarousel" data-slide-to="14"></li>
-                    <li data-target="#theCarousel" data-slide-to="15"></li>
-                    <li data-target="#theCarousel" data-slide-to="16"></li>
-                    <li data-target="#theCarousel" data-slide-to="17"></li>
-                    <li data-target="#theCarousel" data-slide-to="18"></li>
-                    <li data-target="#theCarousel" data-slide-to="19"></li>
-                    <li data-target="#theCarousel" data-slide-to="20"></li>
-                </ol>
-                
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="blue.jpg" alt="Papercarving-Blue" />
-                        <div class="carousel-caption">
-                            <p>Papercarving</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="yellow.jpg" alt="Papercarving-Yellow" />
-                        <div class="carousel-caption">
-                            <p>Papercarving</p>
-                        </div>
-                    </div>
-                </div>
+                <ol id="indicators" class="carousel-indicators"></ol>
+                <div id="inner" class="carousel-inner"></div>
                 
                 <a class="left carousel-control" href="#theCarousel" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
@@ -82,7 +46,6 @@
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </div>
-
         </div>
         
         <!--Contact Information-->

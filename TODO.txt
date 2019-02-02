@@ -9,3 +9,7 @@ food.php
     add images to each food page
 
 Expand navbar when hover
+
+index.js
+    adjust carousel image size
+    show random images?

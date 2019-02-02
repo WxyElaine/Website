@@ -6,11 +6,12 @@
 
 body {
     background-color: #fff4e6;
-    /*font-family: fantasy;*/
     font-size: 2.2em;
     line-height: 2.8em;
-    padding-top: 80px;
+    padding-top: 2.5em;
     text-align: center;
+    margin: auto;
+    width: 85%;
 }
 
 /* Jumbotron */
