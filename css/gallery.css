@@ -10,6 +10,12 @@
     margin-top: 20px;
 }
 
+@media (min-width: 992px) {
+    .col-md-2 {
+        width: 20%;
+    }
+}
+
 .thumbnail {
     display: block;
     padding: 5px;
@@ -52,15 +58,6 @@
 }
 
 /* Modal Box */
-@media screen and (min-width: 768px) { 
-    .modal:before {
-        display: inline-block;
-        vertical-align: middle;
-        content: " ";
-        height: 100%;
-    }
-}
-
 .modal {
     overflow-y: scroll;
 }
@@ -161,6 +158,58 @@
     color: #4b3832;
     font-weight: bold;
     box-shadow: none;
+}
+
+/* style when window is small */
+@media screen and (max-width: 1000px) { 
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
+    
+    .modal-body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .info-img {
+        margin: auto !important;
+        width: 50%;
+        height: auto;
+    }
+    
+    .info-body {
+        margin-left: 5%;
+    }
+    
+    .info-title {
+        font-size: 0.8em;
+    }
+    
+    .info-body .info-engl {
+        font-size: 0.6em !important;
+        font-weight: 300;
+        line-height: 1em;
+        margin-bottom: 0;
+    }
+    
+    .info-body .info-engl {
+        font-size: 0.8em;
+    }
+    
+    .info-body .info-special {
+        font-size: 0.7em;
+    }
+    
+    .info-body .info-description {
+        line-height: 1.3em;
+    }
+    
+    .info-body .subinfo {
+        line-height: 1.3em;
+    }
 }
 
 /* animation style for popup window */

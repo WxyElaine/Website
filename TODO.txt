@@ -1,5 +1,6 @@
 gallery.css
     animation direction for next and prev + when switching inside popup window, do not fade the background
+    disable background when popup window is open
 
 Use wine.php or not???
     how to add href to #wine?
@@ -13,3 +14,4 @@ Expand navbar when hover
 index.js
     adjust carousel image size
     show random images?
+    handle the swipe event on div.carousel

@@ -12,8 +12,9 @@ $(function(){
         loadJSON('/data/slideshow.json', loadJSONCallback);
         
         // handle the swipe event on div.carousel
-        $( "div.carousel" ).on( "swiperight", swiperightHandler );
-        $( "div.carousel" ).on( "swipeleft", swipeleftHandler );
+
+        // $( "div.carousel" ).on( "swiperight", swiperightHandler );
+        // $( "div.carousel" ).on( "swipeleft", swipeleftHandler );
     });
 
     /**

@@ -4,12 +4,21 @@
     Main style for the whole website 
 */
 
+/* Scale the webpage properly based on actual screen width */
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
 body {
     background-color: #fff4e6;
     font-size: 2.2em;
     line-height: 2.8em;
     padding-top: 2.5em;
-    text-align: center;
     margin: auto;
     width: 85%;
 }
@@ -17,8 +26,22 @@ body {
 /* Jumbotron */
 .jumbotron {
     background-color: #fff4e6;
+    text-align: center;
 }
 
 .jumbotron h1 {
     font-size: 2.5em;
+}
+
+/* style when window is small */
+@media screen and (max-width: 1000px) { 
+    body {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 767px) { 
+    body {
+        width: 100% !important;
+    }
 }

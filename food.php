@@ -8,7 +8,10 @@
 <html>
     <head>
         <title>农产品及食品</title>
-        <meta charset="utf-8"> 
+        <meta charset="utf-8">
+        <!--For scaling on mobiles-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--jQuery & Bootstrap-->
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
                     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
