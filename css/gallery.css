@@ -72,6 +72,12 @@
     opacity: 0.7 !important;
 }
 
+/* disable background when modal is open */
+.modal-open {
+    overflow: hidden;
+    position: absolute;
+}
+
 .modal-dialog {
     display: inline-block;
     text-align: left;

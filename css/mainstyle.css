@@ -20,7 +20,8 @@ body {
     line-height: 2.8em;
     padding-top: 2.5em;
     margin: auto;
-    width: 85%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 /* Jumbotron */
@@ -36,7 +37,8 @@ body {
 /* Mobile Friendly Style */
 @media screen and (max-width: 1000px) { 
     body {
-        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 }
 

@@ -2,8 +2,7 @@ gallery.css
     perfectly align each grid!?
     click the img ---> show larger img
     animation direction for next and prev + when switching inside popup window, do not fade the background
-    disable background when popup window is open
-    
+
 Use wine.php or not???
     how to add href to #wine?
 
