@@ -124,8 +124,28 @@
         margin-bottom: 0.3em !important;
     }
     
-    /* style when window is small */
-    @media (max-width: 767px) {
+    /* Mobile Friendly Style */
+    @media screen and (max-width: 767px) {
+        .navbar {
+            padding: 0;
+        }
+        
+        .navbar-toggle {
+            padding: 5px;
+        }
+        
+        .navbar-toggle .icon-bar+.icon-bar {
+            margin-top: 3px;
+        }
+        
+        .navbar-default .navbar-brand {
+            font-size: 1.3em;
+        }
+        
+        .navbar {
+            font-size: 0.7em;
+        }
+
         .navbar-default .navbar-nav .open .dropdown-menu>li>a {
             color: #cbaf95;
         }
@@ -145,6 +165,18 @@
         
         .collapse {
             margin-right: 0;
+        }
+
+        .navbar-fixed-top .navbar-collapse {
+            max-height: 400px;
+        }
+        
+        .navbar-nav .open .dropdown-menu {
+            -webkit-transition: opacity 1s ease-out;
+            -ms-transition: opacity 1s ease-out;
+            -moz-transition: opacity 1s ease-out;
+            -o-transition: opacity 1s ease-out;
+            transition: opacity 1s ease-out;
         }
     }
 </style>

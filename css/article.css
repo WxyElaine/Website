@@ -33,3 +33,16 @@
     font-size: 0.7em;
     font-weight: normal;
 }
+
+/* Mobile Friendly Style */
+@media screen and (max-width: 600px) {
+    #maincontent {
+        margin: 1.2em;
+        margin-top: 0;
+    }
+    
+    #maincontent h1 {
+        font-size: 1em;
+        margin-top: 0;
+    }
+}

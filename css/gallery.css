@@ -10,10 +10,8 @@
     margin-top: 20px;
 }
 
-@media (min-width: 992px) {
-    .col-md-2 {
-        width: 20%;
-    }
+.col-md-2 {
+    width: 20%;
 }
 
 .thumbnail {
@@ -160,8 +158,44 @@
     box-shadow: none;
 }
 
-/* style when window is small */
-@media screen and (max-width: 1000px) { 
+/* animation style for popup window */
+.fade {
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+}
+
+/* Mobile Friendly Style */
+@media screen and (max-width: 1000px) {
+    #productlist {
+        /*display: -webkit-box;*/
+        /*display: -moz-box;*/
+        /*display: -ms-flexbox;*/
+        /*display: -webkit-flex;*/
+        /*display: flexbox;*/
+        /*display: flex;*/
+        
+        /*-webkit-flex-flow: row wrap;*/
+        /*-moz-flex-flow: row wrap;*/
+        /*-ms-flex-flow: row wrap;*/
+        /*flex-flow: row wrap;*/
+        /*-webkit-align-content: flex-start;*/
+        /*-moz-align-content: flex-start;*/
+        /*-ms-align-content: flex-start;*/
+        /*align-content: flex-start;*/
+        /*-webkit-justify-content: center;*/
+        /*-moz-justify-content: center;*/
+        /*-ms-justify-content: center;*/
+        /*justify-content: center;*/
+
+    }
+    
+    .col-md-2, .col-md-3 {
+        display: inline-grid;
+        width: 50%;
+    }
+
     .modal:before {
         display: inline-block;
         vertical-align: middle;
@@ -176,7 +210,7 @@
     
     .info-img {
         margin: auto !important;
-        width: 50%;
+        width: 30%;
         height: auto;
     }
     
@@ -212,10 +246,30 @@
     }
 }
 
-/* animation style for popup window */
-.fade {
-    -moz-transition: opacity .3s ease-out;
-    -webkit-transition: opacity .3s ease-out;
-    -o-transition: opacity .3s ease-out;
-    transition: opacity .3s ease-out;
+@media screen and (max-width: 600px) {
+    #productlist {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    
+    .col-md-2 {
+        width: 45%;
+    }
+    
+    .col-md-3 {
+        width: 50%;
+    }
+    
+    .col-md-3 .thumbnail {
+        height: auto;
+    }
+    
+    .col-md-3 .product-img {
+        height: 10% !important;
+        width: 100%;
+    }
+    
+    .info-img {
+        width: 40%;
+    }
 }
