@@ -69,7 +69,7 @@
 /* faded background */
 .modal-backdrop {
     background-color: black;
-    opacity: 0.7 !important;
+    opacity: 0.85 !important;
 }
 
 /* disable background when modal is open */
@@ -175,31 +175,17 @@
 /* Mobile Friendly Style */
 @media screen and (max-width: 1000px) {
     #productlist {
-        /*display: -webkit-box;*/
-        /*display: -moz-box;*/
-        /*display: -ms-flexbox;*/
-        /*display: -webkit-flex;*/
-        /*display: flexbox;*/
-        /*display: flex;*/
-        
-        /*-webkit-flex-flow: row wrap;*/
-        /*-moz-flex-flow: row wrap;*/
-        /*-ms-flex-flow: row wrap;*/
-        /*flex-flow: row wrap;*/
-        /*-webkit-align-content: flex-start;*/
-        /*-moz-align-content: flex-start;*/
-        /*-ms-align-content: flex-start;*/
-        /*align-content: flex-start;*/
-        /*-webkit-justify-content: center;*/
-        /*-moz-justify-content: center;*/
-        /*-ms-justify-content: center;*/
-        /*justify-content: center;*/
-
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
     
-    .col-md-2, .col-md-3 {
-        display: inline-grid;
-        width: 50%;
+    .row:before {
+        content: none;
+    }
+    
+    .col-md-2, .col-md-3, .col-md-4 {
+        width: 100%;
     }
 
     .modal:before {
@@ -257,25 +243,25 @@
         margin-left: 3px;
         margin-right: 3px;
     }
-    
-    .col-md-2 {
-        width: 45%;
-    }
-    
-    .col-md-3 {
-        width: 50%;
-    }
-    
+
     .col-md-3 .thumbnail {
-        height: auto;
+        height: 90%;
     }
     
-    .col-md-3 .product-img {
+    .col-md-4 .thumbnail {
+        height: 90%;
+    }
+    
+    .col-md-3 .product-img, .col-md-4 .product-img {
         height: 10% !important;
         width: 100%;
     }
     
     .info-img {
         width: 40%;
+    }
+    
+    .product-info a>.product-caption {
+        font-size: 0.6em;
     }
 }

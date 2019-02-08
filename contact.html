@@ -14,15 +14,24 @@
 /* Contact Info */
 #contactinfo {
     background-color: #be9b7b;
+    border-spacing: 10px;
     color: white;
     display: table;
     font-size: 0.8em;
-    width: 100%;
+    padding: 1em;
     table-layout: fixed;
-    border-spacing: 10px
+    width: 100%;
 }
 
 .contactitem {
     display: table-cell
+}
+
+/* Mobile Friendly Style */
+@media screen and (max-width: 1000px) {
+    #contactinfo {
+        font-size: 0.7em;
+        padding: 0.8em;
+    }
 }
 </style>

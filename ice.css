@@ -1,0 +1,39 @@
+/*  
+    Xinyi Wang & Yuchen Wang
+    01/14/18
+    Product: Ice Wine
+*/
+
+#maincontent {
+    cursor: pointer;
+}
+
+#intromenu {
+    margin-bottom: 0.7em !important;
+}
+
+#introbutton {
+    color: #be9b7b;
+    font-size: 0.5em !important;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#introjumbo {
+    padding-bottom: 0;
+}
+
+#galleryjumbo {
+    padding-top: 1em;
+}
+
+/* Mobile Friendly Style */
+@media screen and (max-width: 600px) {
+    #introbutton {
+        font-size: 0.6em !important;
+    }
+    
+    #galleryjumbo {
+        padding-top: 0.7em;
+    }
+}

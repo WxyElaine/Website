@@ -32,6 +32,7 @@ function loadJSON(filepath, callback) {
     const splitFilepath = filepath.split("/");
     productType = splitFilepath[splitFilepath.length - 1].split(".")[0];
     // add specific layout identifier to different product type
+    // default layout: col-md-3
     galleryLayout = "col-md-3";
     if (productType == "ice") {
         galleryLayout = "col-md-2";
@@ -41,9 +42,7 @@ function loadJSON(filepath, callback) {
     } else if (productType == "white") {
         modalLayout = "modalwhite";
     } else if (productType == "food") {
-        // TODO
-        
-        
+        galleryLayout = "col-md-4";
     }
     // load JSON
     let xobj = new XMLHttpRequest();

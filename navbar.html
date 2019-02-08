@@ -125,7 +125,7 @@
     }
     
     /* Mobile Friendly Style */
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1000px) {
         .navbar {
             padding: 0;
         }
@@ -159,10 +159,6 @@
             font-weight: bold
         }
         
-        .navbar-nav .nav-item {
-            margin-bottom: 1em;
-        }
-        
         .collapse {
             margin-right: 0;
         }
@@ -171,12 +167,19 @@
             max-height: 400px;
         }
         
+        /* transition effect for dropdown menu */
         .navbar-nav .open .dropdown-menu {
             -webkit-transition: opacity 1s ease-out;
             -ms-transition: opacity 1s ease-out;
             -moz-transition: opacity 1s ease-out;
             -o-transition: opacity 1s ease-out;
             transition: opacity 1s ease-out;
+        }
+    }
+    
+    @media screen and (max-width: 767px) {
+        .navbar-nav .nav-item {
+            margin-bottom: 1em;
         }
     }
 </style>

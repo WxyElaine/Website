@@ -35,14 +35,21 @@
 }
 
 /* Mobile Friendly Style */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     #maincontent {
         margin: 1.2em;
         margin-top: 0;
     }
     
     #maincontent h1 {
-        font-size: 1em;
+        font-size: 1.2em;
+        margin-bottom: 1.2em;
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #maincontent h1 {
+        font-size: 1em;
     }
 }

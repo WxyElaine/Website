@@ -6,12 +6,12 @@
 
 /* Scale the webpage properly based on actual screen width */
 @viewport {
-  width: device-width ;
-  zoom: 1.0 ;
+  width: device-width;
+  zoom: 1.0;
 }
 
 @-ms-viewport {
-  width: device-width ;
+  width: device-width;
 }
 
 body {
@@ -20,8 +20,10 @@ body {
     line-height: 2.8em;
     padding-top: 2.5em;
     margin: auto;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 /* Jumbotron */
@@ -37,8 +39,8 @@ body {
 /* Mobile Friendly Style */
 @media screen and (max-width: 1000px) { 
     body {
-        margin-left: 2.5%;
-        margin-right: 2.5%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
     }
 }
 

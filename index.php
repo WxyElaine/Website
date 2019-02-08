@@ -31,9 +31,6 @@
         <!--Welcome Words-->
         <div class="jumbotron" id="logo">
             <h1>欢迎</h1>
-            <div>
-                
-            </div>
         </div>
 
         <!--Gallery-->

@@ -23,6 +23,8 @@
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
         <script src="/js/gallery.js" type="text/javascript"></script>
         <link href="/css/gallery.css" type="text/css" rel="stylesheet" />
+        <!--ice.css-->
+        <link href="/ice.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="icepage">
@@ -31,10 +33,13 @@
         
         <!--Content-->
         <!--introduction-->
-        <div class="jumbotron">
+        <div class="jumbotron" id="introjumbo">
             <div id="maincontent">
-                <h1>冰酒</h1>
-                <div class="introtext">
+                <h1 id="intromenu" onclick="showOrHideContent('maincontenttext')">
+                    冰酒
+                </h1>
+                <h2 id="introbutton" onclick="showOrHideContent('maincontenttext')">展开介绍</h2>
+                <div class="introtext" id="maincontenttext" style="display:none">
                     <p>
                         冰酒，最初于1794年诞生在德国的弗兰克尼Franconia，当时德国的葡萄园遭受突然来袭的霜害，
                         为了挽救损失，酿酒师将冰冻的葡萄压榨后按传统的方法发酵酿酒，意外产生出了酸甜比例平衡，
@@ -64,17 +69,32 @@
         </div>
         
         <!--product gallery-->
-        <div class="jumbotron">
+        <div class="jumbotron" id="galleryjumbo">
             <div class="row" id="productlist"></div>
             <!-- Modal -->
             <div id="modal-container"></div>
         </div>
-        <script type="text/javascript">
-            // load ice.json and insert HTML elements for each ice wine product
-            loadJSON('/data/ice.json', loadJSONCallback);
-        </script>
         
         <!--Contact Information-->
         <?php include_once("contact.html"); ?>
+        
+        <script type="text/javascript">
+            // load ice.json and insert HTML elements for each ice wine product
+            loadJSON('/data/ice.json', loadJSONCallback);
+            
+            // show or hide the div with given id
+            function showOrHideContent(id) {
+                var maincontent = document.getElementById(id);
+                var button = document.getElementById("introbutton");
+                var maincontenttext = document.getElementById("maincontenttext");
+                if (maincontent.style.display == "none") {
+                    maincontent.style.display = "block";
+                    button.innerText = "收起介绍";
+                } else {
+                    maincontent.style.display = "none";
+                    button.innerHTML = "展开介绍";
+                }
+            }
+        </script>
     </body>
 </html>
