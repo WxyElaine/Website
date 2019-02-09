@@ -21,6 +21,8 @@
         <link href="/css/mainstyle.css" type="text/css" rel="stylesheet" />
         <script src="/js/navbar.js" type="text/javascript"></script>
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
+        <!--oat.css-->
+        <link href="/food/oat.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
@@ -32,6 +34,7 @@
             <div id="maincontent">
                 <h1>农产品|诺思格燕麦</h1>
                 <div class="introtext">
+                    <img class="pic-m" src="/food/oat/oat1.jpg" alt="燕麦图片">
                     <p>
                         诺思格燕麦品牌产品由Grain Millers公司制造，这个享誉北美的“早餐公司”在1986年成立于美国俄勒冈州，
                         在北美12个工厂中生产谷物产品和成品燕麦产品。
@@ -86,20 +89,34 @@
                 </div>
                 <div class="types">
                     <h2>产品规格</h2>
-                    <h3>诺思格快熟燕麦片</h3>
-                    <p>规格：510g</p>
-                    <p>成分：100&#37;纯天然燕麦</p>
-                    
-                    <h3>诺思格快熟燕麦片</h3>
-                    <p>规格：1.19kg</p>
-                    <p>成分：100&#37;纯天然燕麦</p>
-                    
-                    <h3>诺思格原味即食燕麦片</h3>
-                    <p>规格：28g</p>
-                    <p>成分：100&#37;纯天然燕麦</p>
+                    <div class="product">
+                        <img class="product-img" src="/food/oat/1.jpg" alt="燕麦图片">
+                        <div>
+                            <h3>诺思格快熟燕麦片</h3>
+                            <p>规格：510g<br>成分：100&#37;纯天然燕麦</p>
+                        </div>
+                    <!--</div>-->
+                    <!--<div class="product">-->
+                        <img class="product-img" src="/food/oat/2.jpg" alt="燕麦图片">
+                        <div>
+                            <h3>诺思格快熟燕麦片</h3>
+                            <p>规格：1.19kg<br>成分：100&#37;纯天然燕麦</p>
+                        </div>
+                    <!--</div>-->
+                    <!--<div class="product">-->
+                        <img class="product-img" src="/food/oat/3.jpg" alt="燕麦图片">
+                        <div>
+                            <h3>诺思格原味即食燕麦片</h3>
+                            <p>规格：28g<br>成分：100&#37;纯天然燕麦</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="tip">
                     <h2>食用小贴士</h2>
+                    <div class="group-img tip-img">
+                        <img class="pic-s" src="/food/oat/oat2.jpg" alt="燕麦图片">
+                        <img class="pic-s" src="/food/oat/oat3.jpg" alt="燕麦图片">
+                    </div>
                     <ol>
                         <li>
                             <b>简单方便，速食早餐</b></br>
@@ -109,6 +126,7 @@
                             <b>甜品伴侣，美容养颜</b></br>
                             燕麦具有养颜护肤、抗氧化的功效。燕麦牛奶布丁，养颜美容
                         </li>
+                        
                         <li>
                             <b>健康零食</b></br>
                             燕麦烘烤香饼具有减肥，补益肝脾、降糖降脂的功效

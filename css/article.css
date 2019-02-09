@@ -1,7 +1,7 @@
 /*  
     Xinyi Wang & Yuchen Wang
     01/14/18
-    Product: Oats
+    Style for all of the articles
 */
 
 #maincontent {
@@ -23,6 +23,7 @@
 
 #maincontent h2 {
     font-size: 1em;
+    margin-bottom: 1.5em;
 }
 
 #maincontent h3 {
@@ -32,6 +33,24 @@
 #maincontent p, #maincontent li {
     font-size: 0.7em;
     font-weight: normal;
+}
+
+.introtext p {
+    text-indent: 2em;
+}
+
+#maincontent .pic-m {
+    width: 20em;
+    height: auto;
+}
+
+#maincontent .pic-s {
+    width: 13em;
+    height: auto;
+}
+
+.introtext, .highlight, .types {
+    margin-bottom: 3em;
 }
 
 /* Mobile Friendly Style */
@@ -45,6 +64,16 @@
         font-size: 1.2em;
         margin-bottom: 1.2em;
         margin-top: 0;
+    }
+    
+    #maincontent .pic-m {
+        width: 15em;
+        height: auto;
+    }
+    
+    #maincontent .pic-s {
+        width: 9em;
+        height: auto;
     }
 }
 

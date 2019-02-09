@@ -35,10 +35,10 @@
         <!--introduction-->
         <div class="jumbotron" id="introjumbo">
             <div id="maincontent">
-                <h1 id="intromenu" onclick="showOrHideContent('maincontenttext')">
+                <h1 id="intromenu" class="description_button">
                     冰酒
                 </h1>
-                <h2 id="introbutton" onclick="showOrHideContent('maincontenttext')">展开介绍</h2>
+                <h2 id="introbutton" class="description_button">展开介绍</h2>
                 <div class="introtext" id="maincontenttext" style="display:none">
                     <p>
                         冰酒，最初于1794年诞生在德国的弗兰克尼Franconia，当时德国的葡萄园遭受突然来袭的霜害，
@@ -82,19 +82,22 @@
             // load ice.json and insert HTML elements for each ice wine product
             loadJSON('/data/ice.json', loadJSONCallback);
             
-            // show or hide the div with given id
-            function showOrHideContent(id) {
-                var maincontent = document.getElementById(id);
-                var button = document.getElementById("introbutton");
-                var maincontenttext = document.getElementById("maincontenttext");
-                if (maincontent.style.display == "none") {
-                    maincontent.style.display = "block";
-                    button.innerText = "收起介绍";
-                } else {
-                    maincontent.style.display = "none";
-                    button.innerHTML = "展开介绍";
-                }
-            }
+            $(".description_button").click(function () {
+    		    let header = $(this);
+    		    if (header.attr("id") == "intromenu") {
+    		        header = header.next();
+    		    }
+    		    let content = header.next();
+    		    //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+    		    content.slideToggle(300, function () {
+    		        //execute this after slideToggle is done
+    		        //change text of header based on visibility of content div
+    		        header.text(function () {
+    		            //change text based on condition
+    		            return content.is(":visible") ? "收起介绍" : "展开介绍";
+    		        });
+    		    });
+    		});
         </script>
     </body>
 </html>

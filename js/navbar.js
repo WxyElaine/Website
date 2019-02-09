@@ -3,23 +3,12 @@
 /*  
     Xinyi Wang & Yuchen Wang
     01/14/18
-    Unnamed Website  
+    Navigation Bar 
 */
 
 $(function(){
     $(document).ready(function() {
 
-        // Expand navbar when hover over it
-        // let navbarHeight = $(".").height();
-        // $(".box").mouseenter(function(){
-        //     $(this).animate({
-        //         height: "300"
-        //     });
-        // }).mouseleave(function(){
-        //     $(this).animate({
-        //         height: boxHeight
-        //     });
-        // });
     });
     
     $('ul.nav li.dropdown').hover(

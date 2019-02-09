@@ -4,7 +4,7 @@
 /*  
     Xinyi Wang & Yuchen Wang
     01/14/18
-    Product: Ice wine  
+    Product Gallery
 */
 
 const TRANSLATION = {
@@ -76,19 +76,31 @@ function loadJSONCallback(response) {
     if (productType != "food") {
         // add functionalities to "prev" and "next" button in each modal
         $("div[id^='modalnum']").each(function(){
-            var currentModal = $(this);
+            let currentModal = $(this);
             // click prev
             currentModal.find('.btn-prev').click(function(){
+                toggleFade();
                 currentModal.modal('hide');
-                currentModal.closest("div[id^='modalnum']").prevAll("div[id^='modalnum']").first().modal('show'); 
+                // currentModal.closest("div[id^='modalnum']").prevAll("div[id^='modalnum']").first().modal('show'); 
+                currentModal.prev("div[id^='modalnum']").modal('show');
+                toggleFade();
             });
             // click next
             currentModal.find('.btn-next').click(function(){
+                toggleFade();
                 currentModal.modal('hide');
-                currentModal.closest("div[id^='modalnum']").nextAll("div[id^='modalnum']").first().modal('show');
+                // currentModal.closest("div[id^='modalnum']").nextAll("div[id^='modalnum']").first().modal('show');
+                currentModal.next("div[id^='modalnum']").modal('show');
+                toggleFade();
             });
         });
     }
+}
+
+function toggleFade() {
+    $("div[id^='modalnum']").each(function() {
+        $(this).toggleClass("fade");
+    });
 }
 
 /**
@@ -146,6 +158,7 @@ function createModal(product, index) {
     $(modal).attr("aria-hidden", "true");
     let modal_dialog = document.createElement("div");
     $(modal_dialog).addClass("modal-dialog");
+    $(modal_dialog).addClass("modal-dialog-centered");
     $(modal_dialog).attr("role", "document");
     let modal_content = document.createElement("div");
     $(modal_content).addClass("modal-content");
@@ -157,10 +170,14 @@ function createModal(product, index) {
     $(modal_title).text("产品信息");
     let button = document.createElement("button");
     $(button).attr("type", "button");
+    $(button).attr("id", "close-button-top");
     $(button).addClass("close");
-    $(button).attr("data-dismis", "modal");
+    $(button).attr("data-dismiss", "modal");
     $(button).attr("aria-label", "Close");
     let span = document.createElement("span");
+    $(span).attr("aria-hidde", "true");
+    $(span).text("X");
+    button.appendChild(span);
     modal_header.appendChild(modal_title);
     modal_header.appendChild(button);
     let modal_body = document.createElement("div");

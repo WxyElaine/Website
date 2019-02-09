@@ -1,9 +1,7 @@
 gallery.css
     click the img ---> show larger img
-    animation direction for next and prev + when switching inside popup window, do not fade the background
 
 ice
-    animation of hide & show intro / gallery
 
 Use wine.php or not???
     how to add href to #wine?
