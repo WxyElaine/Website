@@ -21,8 +21,7 @@
         <link href="/css/mainstyle.css" type="text/css" rel="stylesheet" />
         <script src="/js/navbar.js" type="text/javascript"></script>
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
-        <!--oat.css-->
-        <link href="/food/oat.css" type="text/css" rel="stylesheet" />
+        <link href="/food/food.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
@@ -93,21 +92,17 @@
                         <img class="product-img" src="/food/oat/1.jpg" alt="燕麦图片">
                         <div>
                             <h3>诺思格快熟燕麦片</h3>
-                            <p>规格：510g<br>成分：100&#37;纯天然燕麦</p>
+                            <p>规格：510g</p><p>成分：100&#37;纯天然燕麦</p>
                         </div>
-                    <!--</div>-->
-                    <!--<div class="product">-->
                         <img class="product-img" src="/food/oat/2.jpg" alt="燕麦图片">
                         <div>
                             <h3>诺思格快熟燕麦片</h3>
-                            <p>规格：1.19kg<br>成分：100&#37;纯天然燕麦</p>
+                            <p>规格：1.19kg</p><p>成分：100&#37;纯天然燕麦</p>
                         </div>
-                    <!--</div>-->
-                    <!--<div class="product">-->
                         <img class="product-img" src="/food/oat/3.jpg" alt="燕麦图片">
                         <div>
                             <h3>诺思格原味即食燕麦片</h3>
-                            <p>规格：28g<br>成分：100&#37;纯天然燕麦</p>
+                            <p>规格：28g</p><p>成分：100&#37;纯天然燕麦</p>
                         </div>
                     </div>
                 </div>

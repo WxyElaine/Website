@@ -21,6 +21,7 @@
         <link href="/css/mainstyle.css" type="text/css" rel="stylesheet" />
         <script src="/js/navbar.js" type="text/javascript"></script>
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
+        <link href="/food/food.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
@@ -31,14 +32,19 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>农产品|意大利斯玛葡萄籽油</h1>
+                <div class="introtext intro-head">
+                    <img class="pic-m center" src="/food/oil/oil1.jpg" alt="葡萄籽油图片">
+                    <div>
+                        <p>
+                            意大利斯玛公司成立于1998年，为消费者提供最高品质和最丰富的意大利特色食品。
+                        </p>
+                        <p>
+                            公司的宗旨是<b>寻找和采购最好的原材料和产品</b>，<b>筛选最好的生产商和制造商</b>，
+                            不断完善意大利斯玛品牌，传承高品质产品的热情和保证，把最好的食品带到消费者的面前。
+                        </p>
+                    </div>
+                </div>
                 <div class="introtext">
-                    <p>
-                        意大利斯玛公司成立于1998年，为消费者提供最高品质和最丰富的意大利特色食品。
-                    </p>
-                    <p>
-                        公司的宗旨是<b>寻找和采购最好的原材料和产品</b>，<b>筛选最好的生产商和制造商</b>，
-                        不断完善意大利斯玛品牌，传承高品质产品的热情和保证，把最好的食品带到消费者的面前。
-                    </p>
                     <h3 class="subtitle-s">珍贵的葡萄籽油</h3>
                     <p>
                         意大利斯玛葡萄籽油是葡萄种子经由<b>最高级的冷压方式精制而成</b>，
@@ -63,6 +69,7 @@
                         </li>
                         <li>
                             <b>食用油类产品通常含有两种脂肪酸元素：1.饱和脂肪酸；2.不饱和脂肪酸</b></br>
+                            <img class="pic-m" src="/food/oil/oil2.jpg" alt="葡萄籽油图片">
                             <b>饱和脂肪酸</b>多含于动物体内，部分植物也含此类脂肪酸，
                             人体长期过量摄入饱和脂肪酸会导致胆固醇升高。</br>
                             <b>不饱和脂肪酸</b>是人体所需的必要脂肪酸，可以合成DHA，EPA等，
@@ -73,17 +80,27 @@
                 </div>
                 <div class="types">
                     <h2>产品规格</h2>
-                    <h3>意大利斯玛葡萄籽油</h3>
-                    <p>规格：750ml</p>
-                    
-                    <h3>意大利斯玛葡萄籽油</h3>
-                    <p>规格：1L</p>
-                    
-                    <h3>意大利斯玛葡萄籽油</h3>
-                    <p>规格：3L</p>
+                    <div class="product">
+                        <img class="product-img" src="/food/oil/1.jpg" alt="葡萄籽油图片">
+                        <div>
+                            <h3>意大利斯玛葡萄籽油</h3>
+                            <p>规格：750ml</p>
+                        </div>
+                        <img class="product-img" src="/food/oil/2.jpg" alt="葡萄籽油图片">
+                        <div>
+                            <h3>意大利斯玛葡萄籽油</h3>
+                            <p>规格：1L</p>
+                        </div>
+                        <img class="product-img" src="/food/oil/3.jpg" alt="葡萄籽油图片">
+                        <div>
+                            <h3>意大利斯玛葡萄籽油</h3>
+                            <p>规格：3L</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="tip">
                     <h2>食用小贴士</h2>
+                    <img class="pic-s" src="/food/oil/oil3.jpg" alt="葡萄籽油图片">
                     <ol>
                         <li>
                             <b>烹饪</b></br>

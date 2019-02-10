@@ -1,5 +1,6 @@
 gallery.css
-    click the img ---> show larger img
+    remove "close" button?
+    click the img ---> show larger img ------> apply to all pages
 
 ice
 

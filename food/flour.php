@@ -21,6 +21,9 @@
         <link href="/css/mainstyle.css" type="text/css" rel="stylesheet" />
         <script src="/js/navbar.js" type="text/javascript"></script>
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
+        <link href="/food/food.css" type="text/css" rel="stylesheet" />
+        <!--flour.css-->
+        <link href="/food/flour.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
@@ -31,15 +34,20 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>农产品|大草原面粉</h1>
+                <div class="introtext intro-head">
+                    <img class="pic-m center" src="/food/flour/flour1.jpg" alt="大草原面粉图片">
+                    <div>
+                        <p>
+                            大草原面粉有限公司来源于曼尼托巴省。
+                        </p>
+                        <p>
+                            该公司在温尼博格市的西部红春小麦产地核心区域经营一家先进的磨坊。
+                            <b>大草原面粉有限公司坚信</b>，<b>选择最好的小麦是生产出稳定质量产品的唯一方法</b>。
+                            为了达到严格的标准，公司直接与当地的农民和谷仓合作，挑选最优质的小麦用来生产出众的面粉。
+                        </p>
+                    </div>
+                </div>
                 <div class="introtext">
-                    <p>
-                        大草原面粉有限公司来源于曼尼托巴省。
-                    </p>
-                    <p>
-                        该公司在温尼博格市的西部红春小麦产地核心区域经营一家先进的磨坊。
-                        <b>大草原面粉有限公司坚信</b>，<b>选择最好的小麦是生产出稳定质量产品的唯一方法</b>。
-                        为了达到严格的标准，公司直接与当地的农民和谷仓合作，挑选最优质的小麦用来生产出众的面粉。
-                    </p>
                     <h3 class="subtitle-s">符合五星级面粉的标准</h3>
                     <ul>
                         <li>生产地无污染</li>
@@ -89,14 +97,27 @@
                 </div>
                 <div class="types">
                     <h2>产品规格</h2>
-                    <h3>大草原面粉</h3>
-                    <p>规格：2.5Kg</p>
-                    
-                    <h3>大草原面粉</h3>
-                    <p>规格：5Kg</p>
+                    <div class="product">
+                        <img class="product-img" src="/food/flour/1.jpg" alt="大草原面粉图片">
+                        <div>
+                            <h3>大草原面粉</h3>
+                            <p>规格：2.5Kg</p>
+                        </div>
+                        <img class="product-img" src="/food/flour/2.jpg" alt="大草原面粉图片">
+                        <div>
+                            <h3>大草原面粉</h3>
+                            <p>规格：5Kg</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="tip">
                     <h2>食用小贴士</h2>
+                    <div class="group-img tip-img" id="flour-tip">
+                        <img class="pic-s" src="/food/flour/flour2.jpg" alt="大草原面粉图片">
+                        <img class="pic-s" src="/food/flour/flour4.jpg" alt="大草原面粉图片">
+                        <img class="pic-s" src="/food/flour/flour3.jpg" alt="大草原面粉图片">
+                        <img class="pic-s" src="/food/flour/flour5.jpg" alt="大草原面粉图片">
+                    </div>
                     <ol>
                         <li>
                             <b>大草原面粉是高筋面粉，是现代烹饪烘培的首选</b></br>

@@ -27,12 +27,17 @@
 }
 
 #maincontent h3 {
+    color: #3c2f2f;
     font-size: 0.8em;
 }
 
 #maincontent p, #maincontent li {
     font-size: 0.7em;
     font-weight: normal;
+}
+
+ol, ul {
+    padding-left: 1em;
 }
 
 .introtext p {
@@ -53,6 +58,14 @@
     margin-bottom: 3em;
 }
 
+.product p {
+    font-weight: 300 !important;
+    line-height: 1.2em;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    text-indent: -2em;
+}
+
 /* Mobile Friendly Style */
 @media screen and (max-width: 1000px) {
     #maincontent {
@@ -68,17 +81,27 @@
     
     #maincontent .pic-m {
         width: 15em;
-        height: auto;
     }
     
     #maincontent .pic-s {
-        width: 9em;
-        height: auto;
+        width: 10em;
     }
 }
 
 @media screen and (max-width: 600px) {
     #maincontent h1 {
         font-size: 1em;
+    }
+    
+    #maincontent h2 {
+        margin-bottom: 1em;
+    }
+    
+    #maincontent h3 {
+        font-size: 0.7em;
+    }
+    
+    #maincontent .pic-s {
+        width: 6em;
     }
 }

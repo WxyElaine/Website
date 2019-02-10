@@ -21,6 +21,7 @@
         <link href="/css/mainstyle.css" type="text/css" rel="stylesheet" />
         <script src="/js/navbar.js" type="text/javascript"></script>
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
+        <link href="/food/food.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
@@ -32,6 +33,7 @@
             <div id="maincontent">
                 <h1>农产品|格兰特牛奶</h1>
                 <div class="introtext">
+                    <img class="pic-m" src="/food/milk/milk1.jpg" alt="牛奶图片">
                     <p>
                         格兰特牛奶厂于1978年在加拿大的魁北克省成立。魁北克农产品联盟要求，
                         格兰特牛奶采用的原料至少有85&#37;来自于魁北克，并且所有的加工制造和包装
@@ -83,29 +85,33 @@
                 </div>
                 <div class="types">
                     <h2>产品规格</h2>
-                    <h3>格兰特牛奶（3.25&#37;全脂）</h3>
-                    <p>规格：1L</p>
-                    <p>成分：全脂牛奶，维生素A、维生素D</p>
-                    <p>使用人群：2岁以上人群</p>
-                    
-                    <h3>格兰特牛奶（2&#37;减脂）</h3>
-                    <p>规格：1L</p>
-                    <p>成分：部分脱脂牛奶，维生素A、维生素D</p>
-                    <p>使用人群：2岁以上人群</p>
-                    
-                    <h3>格兰特牛奶（3.25&#37;全脂）</h3>
-                    <p>规格：200ml（3 盒起）</p>
-                    <p>成分：全脂牛奶，维生素A、维生素D</p>
-                    
-                    <h3>格兰特牛奶（2&#37;减脂）</h3>
-                    <p>规格：200ml（3盒起）</p>
-                    <p>成分：部分脱脂牛奶，维生素A、维生素D</p>
-                    <p>使用人群：2岁以上人群</p>
-                    
-                    <h3>格兰特巧克力牛奶</h3>
-                    <p>规格：200ml（3盒起）</p>
-                    <p>成分：部分脱脂牛奶（维生素A、维生素D），白砂糖，可可粉，小麦粉，食盐，卡拉胶</p>
-                    <p>使用人群：2岁以上人群</p>
+                    <div class="product">
+                        <img class="product-img" src="/food/milk/1.jpg" alt="牛奶图片">
+                        <div>
+                            <h3>格兰特牛奶（3.25&#37;全脂）</h3>
+                            <p>规格：1L</p><p>成分：全脂牛奶，维生素A、维生素D</p><p>使用人群：2岁以上人群</p>
+                        </div>
+                        <img class="product-img" src="/food/milk/2.jpg" alt="牛奶图片">
+                        <div>
+                            <h3>格兰特牛奶（2&#37;减脂）</h3>
+                            <p>规格：1L</p><p>成分：部分脱脂牛奶，维生素A、维生素D</p><p>使用人群：2岁以上人群</p>
+                        </div>
+                        <img class="product-img" src="/food/milk/3.jpg" alt="牛奶图片">
+                        <div>
+                            <h3>格兰特牛奶（3.25&#37;全脂）</h3>
+                            <p>规格：200ml（3 盒起）</p><p>成分：全脂牛奶，维生素A、维生素D</p>
+                        </div>
+                        <img class="product-img" src="/food/milk/4.jpg" alt="牛奶图片">
+                        <div>
+                            <h3>格兰特牛奶（2&#37;减脂）</h3>
+                            <p>规格：200ml（3盒起）</p><p>成分：部分脱脂牛奶，维生素A、维生素D</p><p>使用人群：2岁以上人群</p>
+                        </div>
+                        <img class="product-img" src="/food/milk/5.jpg" alt="牛奶图片">
+                        <div>
+                            <h3>格兰特巧克力牛奶</h3>
+                            <p>规格：200ml（3盒起）</p><p>成分：部分脱脂牛奶（维生素A、维生素D），白砂糖，可可粉，小麦粉，食盐，卡拉胶</p><p>使用人群：2岁以上人群</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="tip">
                     <h2>饮用小贴士</h2>
