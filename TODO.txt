@@ -1,16 +1,8 @@
 gallery.css
-    remove "close" button?
     click the img ---> show larger img ------> apply to all pages
 
-ice
-
-Use wine.php or not???
-    how to add href to #wine?
-
 food.php
-    ps images
-    add images to each food page
-    for each product, add modal / not ???
+    for each product, add modal / not ???    click the img ---> show larger img ???
 
 index.js
     *** Option 1

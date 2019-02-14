@@ -22,6 +22,8 @@
         <script src="/js/navbar.js" type="text/javascript"></script>
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
         <link href="/food/food.css" type="text/css" rel="stylesheet" />
+        <!--milk.css-->
+        <link href="/food/milk.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
@@ -32,19 +34,23 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>农产品|格兰特牛奶</h1>
-                <div class="introtext">
+                <div class="introtext intro-head">
                     <img class="pic-m" src="/food/milk/milk1.jpg" alt="牛奶图片">
-                    <p>
-                        格兰特牛奶厂于1978年在加拿大的魁北克省成立。魁北克农产品联盟要求，
-                        格兰特牛奶采用的原料至少有85&#37;来自于魁北克，并且所有的加工制造和包装
-                        都必须在魁北克完成。这也正是魁北克格兰特牛奶厂的宗旨：产出世界顶级品质的牛奶，
-                        <b>真正让人放心的奶</b>。
-                    </p>
-                    <p>
-                        魁北克省地广人稀，草场丰富，平均每头牛占有2英亩以上草地，加上<b>优良的牧场和科学的管理</b>，
-                        天然牧场放养的奶牛完全杜绝了饲料中添加的抗生素、生长激素等对牛奶的污染，
-                        奠定了格兰特牛奶优良的品质。
-                    </p>
+                    <div>
+                        <p>
+                            格兰特牛奶厂于1978年在加拿大的魁北克省成立。魁北克农产品联盟要求，
+                            格兰特牛奶采用的原料至少有85&#37;来自于魁北克，并且所有的加工制造和包装
+                            都必须在魁北克完成。这也正是魁北克格兰特牛奶厂的宗旨：产出世界顶级品质的牛奶，
+                            <b>真正让人放心的奶</b>。
+                        </p>
+                        <p>
+                            魁北克省地广人稀，草场丰富，平均每头牛占有2英亩以上草地，加上<b>优良的牧场和科学的管理</b>，
+                            天然牧场放养的奶牛完全杜绝了饲料中添加的抗生素、生长激素等对牛奶的污染，
+                            奠定了格兰特牛奶优良的品质。
+                        </p>
+                    </div>
+                </div>
+                <div class="introtext">
                     <p>
                         格兰特牛奶产自世界优良品种<b>荷斯坦奶牛</b>
                         （每头产奶9500Kg，含3.2&#37;蛋白质和3.76&#37;脂肪含量），牛奶中富含蛋白质和维生素，
@@ -115,7 +121,7 @@
                 </div>
                 <div class="tip">
                     <h2>饮用小贴士</h2>
-                    <ol>
+                    <ul>
                         <li>
                             <b>不要直接喝生牛奶</b></br>
                             没有经过任何加工处理的生牛奶（Raw milk），可能含有多种微生物，
@@ -141,7 +147,7 @@
                             如果喝了牛奶之后会出现<b>胀气</b>、<b>腹痛</b>、<b>腹泻</b>等症状，
                             可能是患有乳糖不耐受症，应该适当掌握牛奶的摄入量。
                         </li>
-                    </ol>
+                    </ul>
                 </div>
             </div>
         </div>

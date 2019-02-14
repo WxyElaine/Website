@@ -22,6 +22,8 @@
         <script src="/js/navbar.js" type="text/javascript"></script>
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
         <link href="/food/food.css" type="text/css" rel="stylesheet" />
+        <!--oat.css-->
+        <link href="/food/oat.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
@@ -32,19 +34,23 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>农产品|诺思格燕麦</h1>
-                <div class="introtext">
+                <div class="introtext intro-head">
                     <img class="pic-m" src="/food/oat/oat1.jpg" alt="燕麦图片">
-                    <p>
-                        诺思格燕麦品牌产品由Grain Millers公司制造，这个享誉北美的“早餐公司”在1986年成立于美国俄勒冈州，
-                        在北美12个工厂中生产谷物产品和成品燕麦产品。
-                    </p>
-                    <p>
-                        该公司30多年来一直致力于创造健康美味的谷物食品，是<b>全球最大的燕麦生产商</b>。
-                        诺思格产品遍布美国和加拿大的超市，杂货店和连锁餐厅,也是北美星巴克咖啡连锁店的供给商。
-                    </p>
-                    <p>
-                        燕麦被时代周刊列为全球十大健康食品之五，是天然膳食纤维家族中的集大成者。
-                    </p>
+                    <div>
+                        <p>
+                            诺思格燕麦品牌产品由Grain Millers公司制造，这个享誉北美的“早餐公司”在1986年成立于美国俄勒冈州，
+                            在北美12个工厂中生产谷物产品和成品燕麦产品。
+                        </p>
+                        <p>
+                            该公司30多年来一直致力于创造健康美味的谷物食品，是<b>全球最大的燕麦生产商</b>。
+                            诺思格产品遍布美国和加拿大的超市，杂货店和连锁餐厅,也是北美星巴克咖啡连锁店的供给商。
+                        </p>
+                        <p>
+                            燕麦被时代周刊列为全球十大健康食品之五，是天然膳食纤维家族中的集大成者。
+                        </p>
+                    </div>
+                </div>
+                <div class="introtext">
                     <p>
                         本产品采用100&#37;纯燕麦片，<b>每一片都保留燕麦的完整三层营养成分</b>（麸皮、胚乳和胚芽），
                         营养价值高，富含膳食纤维、蛋白质、维生素B1、B12和镁、铁等矿物质。
@@ -112,7 +118,7 @@
                         <img class="pic-s" src="/food/oat/oat2.jpg" alt="燕麦图片">
                         <img class="pic-s" src="/food/oat/oat3.jpg" alt="燕麦图片">
                     </div>
-                    <ol>
+                    <ul>
                         <li>
                             <b>简单方便，速食早餐</b></br>
                             干吃或用开水泡/煮均可，也可辅以水果、酸奶、小米、山药等
@@ -126,7 +132,7 @@
                             <b>健康零食</b></br>
                             燕麦烘烤香饼具有减肥，补益肝脾、降糖降脂的功效
                         </li>
-                    </ol>
+                    </ul>
                 </div>
             </div>
         </div>

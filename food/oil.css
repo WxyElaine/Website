@@ -1,0 +1,48 @@
+/*  
+    Xinyi Wang & Yuchen Wang
+    01/14/18
+    Product: Oil
+*/
+
+.highlight img {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 30em !important;
+}
+
+/* introtext with subtopics */
+.intro-head img {
+    margin: auto;
+    width: 90% !important;
+}
+
+@media screen and (min-width: 600px) {
+    .intro-head {
+        display: grid;
+        grid-template-columns: 0.8fr 1fr;
+    }
+    
+    .intro-head img {
+        margin-left: 0;
+    }
+}
+
+/* Mobile Friendly Style */
+@media screen and (max-width: 600px) {
+    .intro-head img {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .highlight img {
+        width: 18em !important;
+    }
+    
+    .product {
+        grid-template-columns: 0.9fr 1fr;
+    }
+}

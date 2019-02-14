@@ -1,0 +1,20 @@
+/*  
+    Xinyi Wang & Yuchen Wang
+    01/14/18
+    Product: Oat
+*/
+
+@media screen and (min-width: 1000px) {
+    /* introtext with subtopics */
+    .intro-head {
+        display: grid;
+        grid-template-columns: 0.8fr 1fr;
+        margin-bottom: 0;
+    }
+    
+    .intro-head img {
+        margin: auto;
+        margin-left: 0;
+        width: 90% !important;
+    }
+}

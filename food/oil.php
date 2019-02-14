@@ -22,6 +22,8 @@
         <script src="/js/navbar.js" type="text/javascript"></script>
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
         <link href="/food/food.css" type="text/css" rel="stylesheet" />
+        <!--oil.css-->
+        <link href="/food/oil.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
@@ -101,7 +103,7 @@
                 <div class="tip">
                     <h2>食用小贴士</h2>
                     <img class="pic-s" src="/food/oil/oil3.jpg" alt="葡萄籽油图片">
-                    <ol>
+                    <ul>
                         <li>
                             <b>烹饪</b></br>
                             葡萄籽油适合各种形式的烹饪，它清淡香馥，可以用来腌制、煎炸、烘烤。
@@ -118,7 +120,7 @@
                             <b>配制调和油</b></br>
                             2L葡萄籽油和5L其它食用油调匀。葡萄籽油与花生油或其他植物油调和，可 以提升油的风味和品质。
                         </li>
-                    </ol>
+                    </ul>
                 </div>
             </div>
         </div>

@@ -21,6 +21,9 @@
         <link href="/css/mainstyle.css" type="text/css" rel="stylesheet" />
         <script src="/js/navbar.js" type="text/javascript"></script>
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
+        <link href="/food/food.css" type="text/css" rel="stylesheet" />
+        <!--sea.css-->
+        <link href="/food/sea.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
@@ -31,25 +34,35 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>海产品|小猪湾干海参</h1>
+                <div class="introtext intro-head">
+                    <img class="pic-m center" src="/food/sea/sea1.jpg" alt="海参图片">
+                    <div>
+                        <p>
+                            加拿大大西洋海参公司从1983年开始运营生产加工海参产品，来自于于哈利法克斯，
+                            主要出口及销售纯天然北极海参产品。
+                        </p>
+                        <p>
+                            公司与多家海内外享有良好声誉大型公司合作以保证产品的优质化，是餐厅，
+                            大型超市，甚至其他同类型公司的主要海参产品供应商，是
+                            <b>加拿大东海岸最大的纯天然北极海参的供应商</b>。
+                        </p>
+                    </div>
+                </div>
+                <div class="introtext intro-head" id="introhead-p">
+                    <img class="pic-m center" src="/food/sea/sea2.jpg" alt="海参图片">
+                    <div>
+                        <h3 class="subtitle-s">大西洋蓝色海洋瑰宝</h3>
+                        <p>
+                            加拿大是出产北极参最多的国家，生产于加拿大新斯科舍省的
+                            Peggy's cove小猪湾品牌海参，是北极参（也称为大西洋海参）的一种。
+                        </p>
+                        <p>
+                            新斯科舍省风景迷人，<b>北纬45度的北大西洋有着清澈天然的无污染海域</b>，
+                            海参在这里大量繁殖和生长,产量丰富。海参身体光滑，个头大且几乎无刺，是纯天然野生海产品。
+                        </p>
+                    </div>
+                </div>
                 <div class="introtext">
-                    <p>
-                        加拿大大西洋海参公司从1983年开始运营生产加工海参产品，来自于于哈利法克斯，
-                        主要出口及销售纯天然北极海参产品。
-                    </p>
-                    <p>
-                        公司与多家海内外享有良好声誉大型公司合作以保证产品的优质化，是餐厅，
-                        大型超市，甚至其他同类型公司的主要海参产品供应商，是
-                        <b>加拿大东海岸最大的纯天然北极海参的供应商</b>。
-                    </p>
-                    <h3 class="subtitle-s">大西洋蓝色海洋瑰宝</h3>
-                    <p>
-                        加拿大是出产北极参最多的国家，生产于加拿大新斯科舍省的
-                        Peggy's cove小猪湾品牌海参，是北极参（也称为大西洋海参）的一种。
-                    </p>
-                    <p>
-                        新斯科舍省风景迷人，<b>北纬45度的北大西洋有着清澈天然的无污染海域</b>，
-                        海参在这里大量繁殖和生长,产量丰富。海参身体光滑，个头大且几乎无刺，是纯天然野生海产品。
-                    </p>
                     <p>
                         加拿大新斯科舍省的野生海参营养丰富，蛋白质在65&#37;以上，总氨基酸60&#37;以上，
                         海参粘多糖约占15&#37;，含海参皂苷甙，维生素和微量元素，是市场上常见其它各种海参的两倍以上。
@@ -94,23 +107,37 @@
                             海参中主要含有维生素A、B、D、E及大量的矿物质营养，其中有机钙含量丰富，为天然补钙食品。 
                         </li>
                     </ul>
+                    <div class="highlight-img">
+                        <img class="pic-m center" src="/food/sea/sea3.jpg" alt="海参图片">
+                        <img class="pic-m center" src="/food/sea/sea4.jpg" alt="海参图片">
+                    </div>
                 </div>
                 <div class="types">
                     <h2>产品规格</h2>
-                    <h3>小猪湾干海参</h3>
-                    <p>规格：454g（1磅）/袋</p>
+                    <div class="product">
+                        <img id="item1" class="product-img" src="/food/sea/1-1.jpg" alt="海参图片">
+                        <img id="item2" class="product-img" src="/food/sea/1-2.jpg" alt="海参图片">
+                        <img id="item3" class="product-img" src="/food/sea/1-3.jpg" alt="海参图片">
+                        <div id="item4">
+                            <h3>小猪湾干海参</h3>
+                            <p>规格：454g（1磅）/袋</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="tip">
                     <h2>食用小贴士</h2>
+                    <!--<div class="group-img tip-img">-->
+                        <img class="pic-s" src="/food/sea/sea5.jpg" alt="海参图片">
+                    <!--</div>-->
                     <h3>泡发干海参</h3>
-                    <ol>
+                    <ul>
                         <li>使用无油无盐的容器，如大的玻璃碗；</li>
                         <li>将冷水放入玻璃碗里，浸没海参；</li>
                         <li>每天换水一次；</li>
                         <li>将玻璃碗在冰箱里放置2天；</li>
                         <li>第三天将海参放入水煮沸30分钟，静置放凉；</li>
                         <li>如果海参已经变软，即可烹饪，否则重复煮海参的步骤。</li>
-                    </ol>
+                    </ul>
                     <h3>食用</h3>
                     <p>已经发好的海参可凉拌，煲汤或红烧。</p>
                 </div>

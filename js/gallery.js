@@ -164,10 +164,12 @@ function createModal(product, index) {
     $(modal_content).addClass("modal-content");
     let modal_header = document.createElement("div");
     $(modal_header).addClass("modal-header");
+    // modal title
     let modal_title = document.createElement("h5");
     $(modal_title).addClass("modal-title");
     $(modal_title).attr("id", "exampleModalLongTitle");
     $(modal_title).text("产品信息");
+    // close window button
     let button = document.createElement("button");
     $(button).attr("type", "button");
     $(button).attr("id", "close-button-top");
@@ -176,7 +178,7 @@ function createModal(product, index) {
     $(button).attr("aria-label", "Close");
     let span = document.createElement("span");
     $(span).attr("aria-hidde", "true");
-    $(span).text("X");
+    $(span).html("&times;");
     button.appendChild(span);
     modal_header.appendChild(modal_title);
     modal_header.appendChild(button);
@@ -201,16 +203,18 @@ function createModal(product, index) {
     $(next_button).addClass("btn-default");
     $(next_button).addClass("btn-next");
     $(next_button).text("下一个");
-    // close window button
-    let close_button = document.createElement("button");
-    $(close_button).attr("type", "button");
-    $(close_button).addClass("btn");
-    $(close_button).addClass("btn-default");
-    $(close_button).attr("data-dismiss", "modal");
-    $(close_button).text("关闭");
+    
+    // // close window button (in the bottom right)
+    // let close_button = document.createElement("button");
+    // $(close_button).attr("type", "button");
+    // $(close_button).addClass("btn");
+    // $(close_button).addClass("btn-default");
+    // $(close_button).attr("data-dismiss", "modal");
+    // $(close_button).text("关闭");
+    
     modal_footer.appendChild(prev_button);
     modal_footer.appendChild(next_button);
-    modal_footer.appendChild(close_button);
+    // modal_footer.appendChild(close_button);
     modal_content.appendChild(modal_header);
     modal_content.appendChild(modal_body);
     modal_content.appendChild(modal_footer);
@@ -228,8 +232,10 @@ function loadInfo(modal_body, product) {
     let info_body = document.createElement("div");
     $(info_body).addClass("info-body");
     let keys = Object.keys(product);
+    // add product image
     let img = document.createElement("img");
     img.classList.add("info-img");
+    // add detailed product information
     for (let i = 0; i < keys.length; i++) {
         let key = keys[i];
         let value = product[key];
@@ -267,4 +273,8 @@ function loadInfo(modal_body, product) {
     }
     modal_body.appendChild(img);
     modal_body.appendChild(info_body);
+}
+
+function showLargeImg() {
+    
 }

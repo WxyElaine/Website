@@ -36,7 +36,7 @@
     font-weight: normal;
 }
 
-ol, ul {
+ul {
     padding-left: 1em;
 }
 
@@ -103,5 +103,9 @@ ol, ul {
     
     #maincontent .pic-s {
         width: 6em;
+    }
+    
+    #maincontent .subtitle-s {
+        font-size: 0.8em;
     }
 }

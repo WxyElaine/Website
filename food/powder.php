@@ -21,6 +21,9 @@
         <link href="/css/mainstyle.css" type="text/css" rel="stylesheet" />
         <script src="/js/navbar.js" type="text/javascript"></script>
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
+        <link href="/food/food.css" type="text/css" rel="stylesheet" />
+        <!--powder.css-->
+        <link href="/food/powder.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body id="foodpage">
@@ -31,14 +34,19 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>农产品|Go Milk高美可奶粉</h1>
-                <div class="introtext">
-                    <p>Go Milk来自于新西兰乳品品牌有限公司。</p>
-                    <p>
-                        Go Milk采用优质天然的新西兰食品配料，拥有先进的的制造加工设备仪器，制造过程在
-                        <b>最高质量的食品安全生产环境里进行</b>，保持了乳制品的纯净和天然。
-                        Go Milk在全球快速消费品市场大量的货架供应，<b>在乳业领域具有举足轻重的地位</b>。
-                        其<b>所有产品的生产和包装都在最优质的食品安全环境下进行</b>，从而<b>达到国际最高标准</b>。
-                    </p>
+                <div class="introtext intro-head">
+                    <img class="pic-m center" src="/food/powder/powder1.jpg" alt="奶粉图片">
+                    <div>
+                        <p>Go Milk来自于新西兰乳品品牌有限公司。</p>
+                        <p>
+                            Go Milk采用优质天然的新西兰食品配料，拥有先进的的制造加工设备仪器，制造过程在
+                            <b>最高质量的食品安全生产环境里进行</b>，保持了乳制品的纯净和天然。
+                            Go Milk在全球快速消费品市场大量的货架供应，<b>在乳业领域具有举足轻重的地位</b>。
+                            其<b>所有产品的生产和包装都在最优质的食品安全环境下进行</b>，从而<b>达到国际最高标准</b>。
+                        </p>
+                    </div>
+                </div>
+                <div class="introtext" id="introtext-sub-p">
                     <h3 class="subtitle-s">100&#37;新西兰南岛奶源</h3>
                     <p>新西兰与各大陆隔绝，无动植物病虫害，<b>无环境污染</b>。</p>
                     <p>新西兰严格限制重工业发展，被誉为&quot;<b>全球最后一片净土</b>&quot;。</p>
@@ -65,20 +73,28 @@
                 </div>
                 <div class="types">
                     <h2>产品规格</h2>
-                    <h3>高美可脱脂奶粉</h3>
-                    <p>规格：800g/罐</p>
-                    <h3>高美可全脂奶粉</h3>
-                    <p>规格：800g/罐</p>
+                    <div class="product">
+                        <img class="product-img" src="/food/powder/1.jpg" alt="奶粉图片">
+                        <div>
+                            <h3>高美可脱脂奶粉</h3>
+                            <p>规格：800g/罐</p>
+                        </div>
+                        <img class="product-img" src="/food/powder/2.jpg" alt="奶粉图片">
+                        <div>
+                            <h3>高美可全脂奶粉</h3>
+                            <p>规格：800g/罐</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="tip">
                     <h2>食用小贴士</h2>
-                    <ol>
+                    <ul>
                         <li><b>全脂奶粉</b>：30g兑227ml的水，为一杯全脂牛奶</li>
                         <li><b>脱脂奶粉</b>：25g兑250ml的水，为一杯脱脂奶</li>
                         <li><b>冷水冲泡</b>为佳，冲泡后进行冷藏提升口感</li>
                         <li><b>切忌高温冲泡</b>，会结块并破坏热敏感营养物质</li>
                         <li>适用人群：<b>2岁以上人群</b></li>
-                    </ol>
+                    </ul>
                 </div>
             </div>
         </div>

@@ -1,0 +1,104 @@
+/*  
+    Xinyi Wang & Yuchen Wang
+    01/14/18
+    Product: Sea Cucumber
+*/
+
+#maincontent .pic-s {
+    height: 10em;
+}
+
+#introhead-p {
+    margin-bottom: 0;
+}
+
+.highlight-img {
+    display: grid;
+}
+
+.highlight-img img {
+    margin: auto;
+    width: 90% !important;
+}
+
+/* introtext with subtopics */
+.intro-head img {
+    margin: auto;
+    width: 90% !important;
+}
+
+.product {
+    grid-column-gap: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .intro-head {
+        display: grid;
+        grid-template-columns: 0.8fr 1fr;
+    }
+    
+    .intro-head img {
+        margin-left: 0;
+    }
+
+    .highlight-img {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Mobile Friendly Style */
+@media screen and (max-width: 1000px) {
+    #maincontent .pic-s {
+        height: 7em;
+    }
+    
+    .group-img {
+        margin-right: 0;
+    }
+    
+    .product {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .product img {
+        width: 90% !important;
+    }
+    
+    #item4 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro-head img {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    #maincontent .pic-s {
+        height: 6em;
+    }
+    
+    .highlight-img {
+        grid-template-columns: 1fr;
+    }
+    
+    .highlight-img img {
+        margin-bottom: 1em;
+    }
+    
+    .product {
+        grid-template-columns: 1fr;
+    }
+    
+    .product img {
+        width: 75% !important;
+    }
+    
+    #item4 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}

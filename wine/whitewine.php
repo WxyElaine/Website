@@ -35,6 +35,7 @@
             <!-- Modal -->
             <div id="modal-container"></div>
         </div>
+        
         <script type="text/javascript">
             // load white.json and insert HTML elements for each white wine product
             loadJSON('/data/white.json', loadJSONCallback);

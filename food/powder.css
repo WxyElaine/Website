@@ -1,0 +1,19 @@
+/*  
+    Xinyi Wang & Yuchen Wang
+    01/14/18
+    Product: Milk Powder
+*/
+
+.product {
+    margin-right: 0;
+}
+
+#introtext-sub-p p {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .product {
+        grid-template-columns: 1fr 1fr;
+    }
+}

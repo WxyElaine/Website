@@ -118,13 +118,13 @@
                         <img class="pic-s" src="/food/flour/flour3.jpg" alt="大草原面粉图片">
                         <img class="pic-s" src="/food/flour/flour5.jpg" alt="大草原面粉图片">
                     </div>
-                    <ol>
+                    <ul>
                         <li>
                             <b>大草原面粉是高筋面粉，是现代烹饪烘培的首选</b></br>
                             大草原面粉可用于制作各种高级中西式面点，
                             制作的各类面点口感天然，松软、富有弹性，不粘牙，不易老化且有自然光泽，营养丰富。
                         </li>
-                    </ol>
+                    </ul>
                 </div>
             </div>
         </div>

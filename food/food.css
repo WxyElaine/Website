@@ -41,32 +41,10 @@
     width: 60%;
 }
 
-.highlight img {
-    display: block;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2em;
-    margin-top: 2em;
-    width: 30em !important;
-}
-
 /* img within tips */
 .tip>img {
     float: right;
     margin-left: 1em;
-}
-
-@media screen and (min-width: 1000px) {
-    /* introtext with subtopics */
-    .intro-head {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .intro-head img {
-        margin: auto;
-    }
 }
 
 /* Mobile Friendly Style */
