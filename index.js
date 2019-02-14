@@ -78,6 +78,7 @@ $(function(){
         let caption = document.createElement("p");
         caption.innerHTML = slide.name;
         captionDiv.appendChild(caption);
+        // append carousel elements to the carousel item
         item.appendChild(img);
         item.appendChild(captionDiv);
         $("#inner").append(item);

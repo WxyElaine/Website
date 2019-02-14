@@ -12,3 +12,5 @@ index.js
     
     *** Option 2
     show menu: intro, food, ice, red, white
+
+    add icons for nav links
