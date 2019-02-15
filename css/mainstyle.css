@@ -19,7 +19,8 @@ body {
     font-size: 2.2em;
     line-height: 2.8em;
     padding-top: 2.5em;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
     padding-left: 7%;

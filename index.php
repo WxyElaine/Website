@@ -38,91 +38,95 @@
         </div>
 
         <!--Gallery-->
-        <div id="gallery" class="jumbotron">       
-            <div id="theCarousel" class="carousel slide">
-                <ol id="indicators" class="carousel-indicators"></ol>
-                <div id="inner" class="carousel-inner"></div>
+        <!--<div id="gallery" class="jumbotron">       -->
+        <!--    <div id="theCarousel" class="carousel slide">-->
+        <!--        <ol id="indicators" class="carousel-indicators"></ol>-->
+        <!--        <div id="inner" class="carousel-inner"></div>-->
 
-                <a class="left carousel-control" href="#theCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#theCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
-        </div>
+        <!--        <a class="left carousel-control" href="#theCarousel" data-slide="prev">-->
+        <!--            <span class="glyphicon glyphicon-chevron-left"></span>-->
+        <!--        </a>-->
+        <!--        <a class="right carousel-control" href="#theCarousel" data-slide="next">-->
+        <!--            <span class="glyphicon glyphicon-chevron-right"></span>-->
+        <!--        </a>-->
+        <!--    </div>-->
+        <!--</div>-->
         
         <!--Product Image Gallery-->
-        <div class="jumbotron">
+        <!--<div class="jumbotron">-->
             <!--<div class="row" id="productlist"></div>-->
-            <div class="row" id="productlist">
-                <div class="col-md-6">
-                    <div class="thumbnail">
-                        <div class="product-info">
-                            <a href="/food.php">
+        <!--    <div class="row" id="productlist">-->
+        <!--        <div class="col-md-6">-->
+        <!--            <div class="thumbnail">-->
+        <!--                <div class="product-info">-->
+        <!--                    <a href="/food.php">-->
                                 <!--<img src="/food/pic/oat.jpg" alt="农产品及食品" class="product-img">-->
-                                <p class="product-caption">农产品及食品</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="thumbnail">
-                        <div class="product-info">
-                            <a href="/ice.php">
+        <!--                        <p class="product-caption">农产品及食品</p>-->
+        <!--                    </a>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--        <div class="col-md-6">-->
+        <!--            <div class="thumbnail">-->
+        <!--                <div class="product-info">-->
+        <!--                    <a href="/ice.php">-->
                                 <!--<img src="/ice/pic/14.jpg" alt="冰酒" class="product-img">-->
-                                <p class="product-caption">冰酒</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="thumbnail">
-                        <div class="product-info">
-                            <a href="/wine/redwine.php">
+        <!--                        <p class="product-caption">冰酒</p>-->
+        <!--                    </a>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--        <div class="col-md-6">-->
+        <!--            <div class="thumbnail">-->
+        <!--                <div class="product-info">-->
+        <!--                    <a href="/wine/redwine.php">-->
                                 <!--<img src="/wine/pic/red/1.png" alt="干红葡萄酒" class="product-img">-->
-                                <p class="product-caption">干红葡萄酒</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="thumbnail">
-                        <div class="product-info">
-                            <a href="/wine/redwine.php">
+        <!--                        <p class="product-caption">干红葡萄酒</p>-->
+        <!--                    </a>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--        <div class="col-md-6">-->
+        <!--            <div class="thumbnail">-->
+        <!--                <div class="product-info">-->
+        <!--                    <a href="/wine/redwine.php">-->
                                 <!--<img src="/wine/pic/white/1.png" alt="干白葡萄酒" class="product-img">-->
-                                <p class="product-caption">干白葡萄酒</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!--                        <p class="product-caption">干白葡萄酒</p>-->
+        <!--                    </a>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
         
         <!--Product Links-->
         <!--for screen and (max-width: 600px)-->
         <div class="jumbotron jumbotron-product jumbotron-product-inline" id="food-link">
             <a href="/food.php">
-                <!--<img src="/food/pic/oat.jpg" alt="农产品及食品" class="product-img">-->
-                <p class="product-caption">农产品及食品</p>
+                <p class="product-caption">
+                    农产品及食品<img class="link-img-right" src="/icon/oat.png" alt="农产品及食品">
+                </p>
             </a>
         </div>
         <div class="jumbotron jumbotron-product jumbotron-product-inline" id="ice-link">
             <a href="/ice.php">
-                <!--<img src="/ice/pic/14.jpg" alt="冰酒" class="product-img">-->
-                <p class="product-caption">冰酒</p>
+                <p class="product-caption">
+                    冰酒<img class="link-img-left" src="/icon/ice.png" alt="冰酒">
+                </p>
             </a>
         </div>
         <div class="jumbotron jumbotron-product jumbotron-product-inline" id="red-link">
             <a href="/wine/redwine.php">
-                <!--<img src="/wine/pic/red/1.png" alt="干红葡萄酒" class="product-img">-->
-                <p class="product-caption">干红葡萄酒</p>
+                <p class="product-caption">
+                    干红葡萄酒<img class="link-img-left" src="/icon/red.png" alt="干红葡萄酒">
+                </p>
             </a>
         </div>
         <div class="jumbotron jumbotron-product" id="white-link">
-            <a href="/wine/redwine.php">
-                <!--<img src="/wine/pic/white/1.png" alt="干白葡萄酒" class="product-img">-->
-                <p class="product-caption">干白葡萄酒</p>
+            <a href="/wine/whitewine.php">
+                <p class="product-caption">
+                    干白葡萄酒<img class="link-img-left" src="/icon/white.png" alt="干白葡萄酒">
+                </p>
             </a>
         </div>
         

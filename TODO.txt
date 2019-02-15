@@ -12,5 +12,5 @@ index.js
     
     *** Option 2
     show menu: intro, food, ice, red, white
+    delete slideshow.json
 
-    add icons for nav links
