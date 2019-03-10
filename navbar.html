@@ -14,7 +14,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <div class="navbar-brand">未命名</div>
+        <div class="navbar-brand">
+            <p>
+                <img src="/logo.jpeg" alt="LOGO" width="30" height="30" />
+                <!--class="d-inline-block align-top"-->
+                加枫福德商贸有限公司
+            </p>
+        </div>
     </div>
 
     <div class="collapse navbar-collapse" id="navbarcontent">
@@ -24,12 +30,6 @@
                 <a class="nav-link" href="/index.php">
                     <img src="/icon/icon1.png" alt="icon" width="40em">
                     网站首页<span class="sr-only">(current)</span>
-                </a>
-            </li>
-            <li class="nav-item" id="intro">
-                <a class="nav-link" href="/intro.php">
-                    <img src="/icon/icon2.png" alt="icon" width="40em">
-                    公司简介<span class="sr-only">(current)</span>
                 </a>
             </li>
             <li class="nav-item" id="food">
@@ -53,6 +53,12 @@
                     <li id="redwine"><a href="/wine/redwine.php">干红葡萄酒</a></li>
                     <li id="whitewine"><a href="/wine/whitewine.php">干白葡萄酒</a></li>
                 </ul>
+            </li>
+            <li class="nav-item" id="intro">
+                <a class="nav-link" href="/intro.php">
+                    <img src="/icon/icon2.png" alt="icon" width="40em">
+                    公司简介<span class="sr-only">(current)</span>
+                </a>
             </li>
         </ul>  
     </div>
@@ -124,6 +130,10 @@
         margin-bottom: 0.3em !important;
     }
     
+    .navbar-brand p {
+        margin-bottom: 0;
+    }
+    
     /* Mobile Friendly Style */
     @media screen and (max-width: 1000px) {
         .navbar {
@@ -175,9 +185,13 @@
             -o-transition: opacity 1s ease-out;
             transition: opacity 1s ease-out;
         }
+        
+        .navbar-right {
+            margin-right: 0.3em !important;
+        }
     }
     
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 768px) {
         .navbar-nav .nav-item {
             margin-bottom: 1em;
         }

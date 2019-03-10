@@ -3,7 +3,7 @@
 /*  
     Xinyi Wang & Yuchen Wang
     01/14/18
-    Unnamed Website  
+    Website of MapleFood Trading Inc.
 */
 
 $(function(){

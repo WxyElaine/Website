@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Go Milk高美可奶粉</title>
+        <title>Go Milk高美可奶粉---加枫福德商贸有限公司</title>
         <meta charset="utf-8">
         <!--For scaling on mobiles-->
         <meta name="viewport" content="width=device-width, initial-scale=1">

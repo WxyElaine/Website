@@ -1,2 +1,2 @@
 # Website
-This is a commercial website developed by Yuchen Wang and Xinyi Wang.
+This is the website for MapleFood Trading Inc. developed by Yuchen Wang and Xinyi Wang.

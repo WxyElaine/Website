@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>公司简介</title>
+        <title>公司简介---加枫福德商贸有限公司</title>
         <meta charset="utf-8">
         <!--For scaling on mobiles-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,6 +25,12 @@
     <body id="intropage">
         <!--Navigation Bar-->
         <?php include_once("navbar.html"); ?>
+        
+        <!--Introduction-->
+        <div>
+            <p>加枫福德商贸有限公司</p>
+            <p><img src="/logo.jpeg" alt="LOGO" width="300" height="300" /></p>
+        </div>
         
         <!--Contact Information-->
         <?php include_once("contact.html"); ?>
