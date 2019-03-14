@@ -33,6 +33,7 @@
         <div class="jumbotron" id="logo">
             <h2>加枫福德商贸有限公司</h2>
             <h2>MapleFood Trading Inc.</h2>
+            <h3>PURE  NATURAL  HEALTHY LIVING</h3>
         </div>
 
         <!--Gallery-->

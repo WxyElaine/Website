@@ -1,0 +1,71 @@
+/*
+    Xinyi Wang & Yuchen Wang
+    01/14/18
+    Company Introduction Page
+*/
+
+#maincontent img {
+    display: block;
+    margin: auto;
+}
+
+#logo {
+    width: 300px;
+    height: 300px;
+}
+
+#slogan {
+    text-align: center;
+}
+
+#flag {
+    width: 60px;
+    height: auto;
+    margin-bottom: 0.5em !important;
+}
+
+#logo_and_slogan {
+    background-color: #fffbf7;
+    margin-top: 3em;
+    padding: 2.2em;
+}
+
+.break {
+    display: none;
+}
+
+/* Desktop Style */
+@media screen and (min-width: 1000px) {
+    #logo_and_slogan {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+/* Mobile Friendly Style */
+@media screen and (max-width: 1000px) {
+    #logo_and_slogan {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    #logo {
+        margin-bottom: 1.3em !important;
+    }
+    
+    .break {
+        display: inline;
+    }
+    
+    #slogan p {
+        margin-bottom: 0.5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #logo {
+        width: 200px;
+        height: 200px;
+    }
+}
