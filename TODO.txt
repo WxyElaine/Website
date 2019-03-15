@@ -14,8 +14,4 @@ index.js
     show menu: intro, food, ice, red, white
     delete slideshow.json
 
-add logo
 add price
-
-change front page logo layout
-add footer for the flag on intro.php

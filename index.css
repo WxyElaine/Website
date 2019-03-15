@@ -76,6 +76,11 @@
 
 
 /* Product Links */
+#product_links {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .jumbotron-product-inline {
     margin-bottom: 0;
 }
@@ -90,6 +95,7 @@
 }
 
 .product-caption {
+    font-size: 0.8em !important;
     position: relative;
 }
 
@@ -123,6 +129,86 @@
     background-color: #f6edd2;
 }
 
+/* Company Name and Logo */
+#company_name {
+    margin-bottom: 0;
+    padding-top: 1.6em;
+}
+
+#company_name>div {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+#company_name h2 {
+    font-size: 1.1em;
+    margin-top: 0.5em;
+}
+
+#company_name h3 {
+    font-size: 0.9em;
+}
+
+#logo {
+    border-radius: 10%;
+    margin: auto;
+    width: 70px;
+}
+
+#slogan {
+    background-color: #be9b7b;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.8em !important;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.dot {
+    background-color: #fff4e6;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    height: 10px;
+    width: 10px;
+}
+
+/* Main Layout */
+#front_tbl {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+/* Company Intro Text */
+#introtext p {
+    font-size: 0.7em;
+    line-height: 2em;
+    text-align: left;
+    text-indent: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+/* Layout only for desktops and iPads */
+@media screen and (min-width: 767px) {
+    #logo {
+        width: 85px;
+    }
+
+    /* Main Layout */
+    #front_tbl {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
 /* Mobile Friendly Style */
 @media screen and (max-width: 600px) {
     /* Carousel */
@@ -135,19 +221,38 @@
     /*}*/
 
     /* Product Gallery */
-    .col-md-6 .thumbnail {
-        height: 90%;
+    /*.col-md-6 .thumbnail {*/
+    /*    height: 90%;*/
+    /*}*/
+    
+    /*.col-md-6 .product-img {*/
+    /*    height: 6em !important;*/
+    /*}*/
+    
+    /*.thumbnail .product-info {*/
+    /*    margin-top: 12%;*/
+    /*}*/
+    
+    /*.product-info a>.product-caption {*/
+    /*    font-size: 0.8em;*/
+    /*}*/
+    
+    #company_name>div {
+        grid-template-columns: 3fr 1fr;
+        width: 100%;
     }
     
-    .col-md-6 .product-img {
-        height: 6em !important;
+    #introtext {
+        display: none;
     }
     
-    .thumbnail .product-info {
-        margin-top: 12%;
+    .dot {
+        margin-right: 0.2em;
+        margin-left: 0.2em;
     }
-    
-    .product-info a>.product-caption {
-        font-size: 0.8em;
+
+@media screen and (max-width: 320px) {
+    #company_name>div {
+        grid-template-columns: 5fr 1fr;
     }
 }

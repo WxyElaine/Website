@@ -24,6 +24,7 @@
 #maincontent h2 {
     font-size: 1em;
     margin-bottom: 1.5em;
+    margin-top: 1.5em;
 }
 
 #maincontent h3 {
@@ -40,6 +41,10 @@ ul {
     padding-left: 1em;
 }
 
+.ul_independent {
+    margin-top: 1em;
+}
+
 .introtext p {
     text-indent: 2em;
 }
@@ -50,7 +55,7 @@ ul {
 }
 
 #maincontent .pic-s {
-    width: 13em;
+    width: 10em;
     height: auto;
 }
 
@@ -64,6 +69,15 @@ ul {
     margin-left: 2em;
     margin-bottom: 0.5em;
     text-indent: -2em;
+}
+
+.product>div>h3 {
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.break {
+    display: none;
 }
 
 /* Mobile Friendly Style */
@@ -83,8 +97,8 @@ ul {
         width: 15em;
     }
     
-    #maincontent .pic-s {
-        width: 10em;
+    .introtext {
+        margin-bottom: 0;
     }
 }
 
@@ -98,7 +112,7 @@ ul {
     }
     
     #maincontent h3 {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
     
     #maincontent .pic-s {
@@ -107,5 +121,9 @@ ul {
     
     #maincontent .subtitle-s {
         font-size: 0.8em;
+    }
+    
+    .break {
+        display: inline;
     }
 }

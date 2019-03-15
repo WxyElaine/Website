@@ -31,6 +31,21 @@
         <!--Introduction-->
         <div class="jumbotron" id="maincontent">
             <h1>加枫福德商贸有限公司</h1>
+            <div id="logo_and_slogan">
+                <img id="logo" src="/pic/logo.jpeg" alt="LOGO"/>
+                <div id="slogan">
+                    <p>新时代 新中产 优生活</p>
+                    <p>加枫福德商贸有限公司<br class="break">竭诚祝您</p>
+                    <p>乐享佳品 事业兴旺 健康延年</p>
+                    <p>热忱邀请您莅临<br class="break">本公司的加拿大生活体验馆</p>
+                    <p>品尝美食醇酒</p>
+                    <p>全方位了解我们的产品文化</p>
+                    <img id="flag" src="/pic/flag_of_canada.svg" alt="Flag of Canada"/>
+                    <p><b>源自天然 简单纯正</b></p>
+                    <p><b>卓越品质 健康保障</b></p>
+                    <p><b>来自加拿大</b></p>
+                </div>    
+            </div>
             <p>
                 加枫福德商贸有限公司主要致力于经销加拿大原地原产原装进口农副产品及葡萄酒及其它酒类。
             </p>
@@ -47,25 +62,11 @@
             <p>
                 公司产品宗旨：源自天然，简单纯正，卓越品质，健康保障。
             </p>
-            <div id="logo_and_slogan">
-                <img id="logo" src="/pic/logo.jpeg" alt="LOGO"/>
-                <div id="slogan">
-                    <p>新时代 新中产 优生活</p>
-                    <p>加枫福德商贸有限公司竭诚祝您</p>
-                    <p>乐享佳品 事业兴旺 健康延年</p>
-                    <p>热忱邀请您莅临<br class="break">本公司的加拿大生活体验馆</p>
-                    <p>品尝美食醇酒</p>
-                    <p>全方位了解我们的产品文化</p>
-                    <img id="flag" src="/pic/flag_of_canada.svg" alt="Flag of Canada"/>
-                    <p><b>源自天然 简单纯正</b></p>
-                    <p><b>卓越品质 健康保障</b></p>
-                    <p><b>来自加拿大</b></p>
-
-                </div>    
-            </div>
-            
-            <!--Public Domain, <a href="https://en.wikipedia.org/w/index.php?curid=33285599">Link</a>-->
-            
+        </div>
+        
+        <!--Footer-->
+        <div class="jumbotron" id="footer">
+            <p>Image Source: <a href="https://en.wikipedia.org/w/index.php?curid=33285599">Flag of Canada</a></p>
         </div>
         
         <!--Contact Information-->

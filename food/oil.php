@@ -85,17 +85,17 @@
                     <div class="product">
                         <img class="product-img" src="/food/oil/1.jpg" alt="葡萄籽油图片">
                         <div>
-                            <h3>意大利斯玛葡萄籽油</h3>
+                            <h3>意大利斯玛<br class="break">葡萄籽油</h3>
                             <p>规格：750ml</p>
                         </div>
                         <img class="product-img" src="/food/oil/2.jpg" alt="葡萄籽油图片">
                         <div>
-                            <h3>意大利斯玛葡萄籽油</h3>
+                            <h3>意大利斯玛<br class="break">葡萄籽油</h3>
                             <p>规格：1L</p>
                         </div>
                         <img class="product-img" src="/food/oil/3.jpg" alt="葡萄籽油图片">
                         <div>
-                            <h3>意大利斯玛葡萄籽油</h3>
+                            <h3>意大利斯玛<br class="break">葡萄籽油</h3>
                             <p>规格：3L</p>
                         </div>
                     </div>

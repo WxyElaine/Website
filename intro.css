@@ -4,9 +4,24 @@
     Company Introduction Page
 */
 
+#maincontent {
+    margin-top: 0; 
+}
+
 #maincontent img {
     display: block;
     margin: auto;
+}
+
+#maincontent>p {
+    text-indent: 2em;
+}
+
+#logo_and_slogan {
+    background-color: #fffbf7;
+    border-radius: 15px;
+    margin-bottom: 1em;
+    padding: 1.5em;
 }
 
 #logo {
@@ -21,30 +36,43 @@
 #flag {
     width: 60px;
     height: auto;
-    margin-bottom: 0.5em !important;
-}
-
-#logo_and_slogan {
-    background-color: #fffbf7;
-    margin-top: 3em;
-    padding: 2.2em;
+    margin-top: 1em !important;
+    margin-bottom: 1.2em !important;
 }
 
 .break {
     display: none;
 }
 
+#footer {
+    padding: 0;
+    margin: 0;
+}
+
+#footer p {
+    color: #be9b7b;
+    font-size: 0.4em;
+    float: right;
+    margin: 0;
+}
+
+#footer a {
+    color: #938784;
+    text-decoration: underline;
+}
+
 /* Desktop Style */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
     #logo_and_slogan {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
+        justify-content: center;
     }
 }
 
 /* Mobile Friendly Style */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 767px) {
     #logo_and_slogan {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -52,6 +80,8 @@
     
     #logo {
         margin-bottom: 1.3em !important;
+        width: 200px;
+        height: 200px;
     }
     
     .break {
@@ -60,12 +90,5 @@
     
     #slogan p {
         margin-bottom: 0.5em;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #logo {
-        width: 200px;
-        height: 200px;
     }
 }

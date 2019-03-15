@@ -19,6 +19,7 @@
                     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <!--Customized stylesheets and js-->
         <link href="/css/mainstyle.css" type="text/css" rel="stylesheet" />
+        <link href="/css/header.css" type="text/css" rel="stylesheet" />
         <script src="/js/navbar.js" type="text/javascript"></script>
         <link href="/css/gallery.css" type="text/css" rel="stylesheet" />
         <script src="/js/gallery.js" type="text/javascript"></script>
@@ -31,6 +32,7 @@
         
         <!--product gallery-->
         <div class="jumbotron">
+            <h1>干红葡萄酒</h1>
             <div class="row" id="productlist"></div>
             <!-- Modal -->
             <div id="modal-container"></div>

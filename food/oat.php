@@ -107,7 +107,7 @@
                         </div>
                         <img class="product-img" src="/food/oat/3.jpg" alt="燕麦图片">
                         <div>
-                            <h3>诺思格原味即食燕麦片</h3>
+                            <h3>诺思格原味<br class="break">即食燕麦片</h3>
                             <p>规格：28g</p><p>成分：100&#37;纯天然燕麦</p>
                         </div>
                     </div>
