@@ -34,6 +34,7 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>农产品|Go Milk高美可奶粉</h1>
+                <a id="product_list_link" href="#jump_target">查看产品列表>></a>
                 <div class="introtext intro-head">
                     <img class="pic-m center" src="/food/powder/powder1.jpg" alt="奶粉图片">
                     <div>
@@ -68,7 +69,7 @@
                         <li><b>不添加速溶剂</b>、<b>香精</b>、<b>香料</b></li>
                         <li><b>非转基因</b>，不含激素，不含防腐剂</li>
                         <li>清淡口味，纯正奶香，不上火</li>
-                        <li>保留了<b>完整的多样的脂溶性维生素</b>，营养全面，味道浓郁</li>
+                        <li id="jump_target">保留了<b>完整的多样的脂溶性维生素</b>，营养全面，味道浓郁</li>
                     </ul>
                 </div>
                 <div class="types">

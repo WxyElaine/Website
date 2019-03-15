@@ -15,3 +15,5 @@ index.js
     delete slideshow.json
 
 add price
+
+add background for subtitles

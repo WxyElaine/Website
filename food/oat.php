@@ -34,6 +34,7 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>农产品|诺思格燕麦</h1>
+                <a id="product_list_link" href="#jump_target">查看产品列表>></a>
                 <div class="introtext intro-head">
                     <img class="pic-m" src="/food/oat/oat1.jpg" alt="燕麦图片">
                     <div>
@@ -89,7 +90,7 @@
                             亚油酸是降血脂类药物的有效成分，能够降血压，降三酰甘油，具有软化毛细血管，
                             预防血管硬化的作用，脂肪肝，浮肿，便秘等也有辅助功效
                         </li>
-                        <li>合理水平的不饱和脂肪酸对于预防老年痴呆、肿瘤及心脑血管疾病有积极作用</li>
+                        <li id="jump_target">合理水平的不饱和脂肪酸对于预防老年痴呆、肿瘤及心脑血管疾病有积极作用</li>
                     </ul>
                 </div>
                 <div class="types">

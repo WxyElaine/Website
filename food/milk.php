@@ -34,6 +34,7 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>农产品|格兰特牛奶</h1>
+                <a id="product_list_link" href="#jump_target">查看产品列表>></a>
                 <div class="introtext intro-head">
                     <img class="pic-m" src="/food/milk/milk1.jpg" alt="牛奶图片">
                     <div>
@@ -86,7 +87,7 @@
                         <li>加拿大乳制品管理条例明确规定</li>
                         <li>农场对奶牛提供任何形式的药物都必须通过严格的法规监管。</li>
                         <li>当奶牛患病时，接受抗生素类药物治疗的奶牛都必须被标识。</li>
-                        <li>其药物完全排除期内产出的牛奶都必须被丢弃。如违反相关规定会受到严重处罚。</li>
+                        <li id="jump_target">其药物完全排除期内产出的牛奶都必须被丢弃。如违反相关规定会受到严重处罚。</li>
                     </ul>
                 </div>
                 <div class="types">

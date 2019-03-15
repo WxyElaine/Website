@@ -66,7 +66,7 @@
         
         <!--Footer-->
         <div class="jumbotron" id="footer">
-            <p>Image Source: <a href="https://en.wikipedia.org/w/index.php?curid=33285599">Flag of Canada</a></p>
+            <p>Image Source: <a href="https://en.wikipedia.org/w/index.php?curid=33285599" target="_blank">Flag of Canada</a></p>
         </div>
         
         <!--Contact Information-->

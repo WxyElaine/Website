@@ -57,8 +57,11 @@
 }
 
 #footer a {
-    color: #938784;
     text-decoration: underline;
+}
+
+#footer a, #footer a:visited {
+    color: #938784;
 }
 
 /* Desktop Style */

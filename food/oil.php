@@ -34,6 +34,7 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>农产品|意大利斯玛葡萄籽油</h1>
+                <a id="product_list_link" href="#jump_target">查看产品列表>></a>
                 <div class="introtext intro-head">
                     <img class="pic-m center" src="/food/oil/oil1.jpg" alt="葡萄籽油图片">
                     <div>
@@ -75,9 +76,10 @@
                             <b>饱和脂肪酸</b>多含于动物体内，部分植物也含此类脂肪酸，
                             人体长期过量摄入饱和脂肪酸会导致胆固醇升高。</br>
                             <b>不饱和脂肪酸</b>是人体所需的必要脂肪酸，可以合成DHA，EPA等，
-                            它们在人体内具有降血脂、改善血液循环、抑制血小板凝集、
+                            它们在人体内具有降血脂、改善血液循环、抑制血小板凝集、<span id="jump_target"></span>
                             阻抑动脉硬化斑块和降低血栓形成等功效，对心脑血管病有良好的预防效果等作用。
                         </li>
+                        
                     </ul>
                 </div>
                 <div class="types">

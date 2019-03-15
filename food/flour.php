@@ -34,6 +34,7 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>农产品|大草原面粉</h1>
+                <a id="product_list_link" href="#jump_target">查看产品列表>></a>
                 <div class="introtext intro-head">
                     <img class="pic-m center" src="/food/flour/flour1.jpg" alt="大草原面粉图片">
                     <div>
@@ -45,17 +46,17 @@
                             <b>大草原面粉有限公司坚信</b>，<b>选择最好的小麦是生产出稳定质量产品的唯一方法</b>。
                             为了达到严格的标准，公司直接与当地的农民和谷仓合作，挑选最优质的小麦用来生产出众的面粉。
                         </p>
+                        <h3 class="subtitle-s">符合五星级面粉的标准</h3>
+                        <ul style="text-align: center; margin: auto">
+                            <li>生产地无污染</li>
+                            <li>小麦高品质</li>
+                            <li>加工过程标准化</li>
+                            <li>无添加有害物质</li>
+                            <li>健康营养</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="introtext">
-                    <h3 class="subtitle-s">符合五星级面粉的标准</h3>
-                    <ul>
-                        <li>生产地无污染</li>
-                        <li>小麦高品质</li>
-                        <li>加工过程标准化</li>
-                        <li>无添加有害物质</li>
-                        <li>健康营养</li>
-                    </ul>
                     <h3 class="subtitle-s">来自加拿大的面粉</h3>
                     <p>
                         加拿大是农业高度发达的国家，也是世界第七大粮食生产国，是世界优质小麦的主产地。
@@ -90,7 +91,7 @@
                             富含蛋白质、碳水化合物、维生素和钙、铁、磷、钾镁等矿物质，有益心养肾、
                             健脾厚肠、除热的功效。
                         </li>
-                        <li>
+                        <li id="jump_target">
                             富含维生素B1，B2、烟酸、叶酸等微量有机物和铁元素。
                         </li>
                     </ul>

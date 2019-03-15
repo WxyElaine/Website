@@ -80,6 +80,15 @@ ul {
     display: none;
 }
 
+#product_list_link {
+    color: #938784;
+    display: block;
+    font-size: 0.7em;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
 /* Mobile Friendly Style */
 @media screen and (max-width: 1000px) {
     #maincontent {

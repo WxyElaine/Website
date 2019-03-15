@@ -34,6 +34,7 @@
         <div class="jumbotron">
             <div id="maincontent">
                 <h1>海产品|小猪湾干海参</h1>
+                <a id="product_list_link" href="#jump_target">查看产品列表>></a>
                 <div class="introtext intro-head">
                     <img class="pic-m center" src="/food/sea/sea1.jpg" alt="海参图片">
                     <div>
@@ -110,6 +111,7 @@
                     <div class="highlight-img">
                         <img class="pic-m center" src="/food/sea/sea3.jpg" alt="海参图片">
                         <img class="pic-m center" src="/food/sea/sea4.jpg" alt="海参图片">
+                        <span id="jump_target"></span>
                     </div>
                 </div>
                 <div class="types">
