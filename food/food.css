@@ -4,6 +4,12 @@
     Style for all food pages
 */
 
+h4 {
+    color: #7f4d00;
+    font-size: 0.7em;
+    text-align: center;
+}
+
 .pic-m {
     float: left;
     margin-right: 1em;
@@ -97,5 +103,11 @@
     
     .highlight img {
         width: 18em !important;
+    }
+    
+    /* change the space between two prices to a line break */
+    h4 span {
+        display: block;
+        padding: 0.2em !important;
     }
 }

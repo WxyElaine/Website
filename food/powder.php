@@ -78,11 +78,13 @@
                         <img class="product-img" src="/food/powder/1.jpg" alt="奶粉图片">
                         <div>
                             <h3>高美可脱脂奶粉</h3>
+                            <h4>零售 ¥169<span style="padding: 0.5em;"></span>团购 ¥129</h4>
                             <p>规格：800g/罐</p>
                         </div>
                         <img class="product-img" src="/food/powder/2.jpg" alt="奶粉图片">
                         <div>
                             <h3>高美可全脂奶粉</h3>
+                            <h4>零售 ¥169<span style="padding: 0.5em;"></span>团购 ¥129</h4>
                             <p>规格：800g/罐</p>
                         </div>
                     </div>

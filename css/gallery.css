@@ -22,6 +22,20 @@
     border: 1px solid #fff;
     border-radius: 10px;
     overflow: nowrap;
+}
+
+/* ice wine page */
+.col-md-2 .thumbnail {
+    height: 16em;
+}
+
+/* red wine and white wine page */
+.col-md-3 .thumbnail {
+    height: 15em;
+}
+
+/* food gallery */
+.col-md-4 .thumbnail {
     height: 13em;
 }
 
@@ -41,6 +55,15 @@
 .product-info .product-caption {
     color: black;
     font-size: 0.6em;
+}
+
+.product-name-caption {
+    font-weight: 400;
+}
+
+.product-price-caption {
+    color: #7f4d00;
+    font-weight: 400;
 }
 
 .product-info a {
@@ -78,11 +101,16 @@
     position: absolute;
 }
 
+/* modal style */
 .modal-dialog {
     display: inline-block;
     text-align: left;
     vertical-align: middle;
-    width: 80%;
+    width: 90%;
+}
+
+.modal-open .modal {
+    padding：0；
 }
 
 .modal-header {
@@ -113,7 +141,7 @@
 
 .info-body .info-engl {
     font-weight: 400;
-    line-height: 2em;
+    line-height: 1em;
 }
 
 .info-body .subinfo {
@@ -139,6 +167,20 @@
     font-size: 0.8em;
     font-weight: bold;
     line-height: 1.5em;
+}
+
+.info-body .info-price {
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+
+.info-body .info-price .retail, .info-body .info-price .group {
+    color: #cc7b00;
+}
+
+.info-body .info-price .retail-price, .info-body .info-price .group-price {
+    color: #995c00;
+    font-weight: 400;
 }
 
 .info-img {
@@ -220,7 +262,7 @@
     }
     
     .info-title {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     
     .info-body .info-engl {
@@ -230,8 +272,11 @@
         margin-bottom: 0;
     }
     
-    .info-body .info-engl {
-        font-size: 0.8em;
+    .info-body .info-price {
+        font-size: 0.7em;
+        line-height: 1.2em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
     }
     
     .info-body .info-special {
@@ -254,7 +299,7 @@
     }
 
     .col-md-3 .thumbnail {
-        height: 90%;
+        height: 12em;
     }
     
     .col-md-4 .thumbnail {

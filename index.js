@@ -11,10 +11,10 @@ $(function(){
         // load slideshow.json
         loadJSON('/data/slideshow.json', loadJSONCallback);
         
-        // handle the swipe event on div.carousel
-
-        // $( "div.carousel" ).on( "swiperight", swiperightHandler );
-        // $( "div.carousel" ).on( "swipeleft", swipeleftHandler );
+        // set the time interval for carousel autoplay
+        $('.carousel').carousel({
+            interval: 3000
+        });
     });
 
     /**
@@ -82,13 +82,5 @@ $(function(){
         item.appendChild(img);
         item.appendChild(captionDiv);
         $("#inner").append(item);
-    }
-    
-    function swiperightHandler(event) {
-        this.carousel('prev');
-    }
-
-    function swipeleftHandler(event) {
-        this.carousel('next');
     }
 });

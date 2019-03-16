@@ -102,11 +102,13 @@
                         <img class="product-img" src="/food/flour/1.jpg" alt="大草原面粉图片">
                         <div>
                             <h3>大草原面粉</h3>
+                            <h4>零售 ¥85<span style="padding: 0.5em;"></span>团购 ¥72</h4>
                             <p>规格：2.5Kg</p>
                         </div>
                         <img class="product-img" src="/food/flour/2.jpg" alt="大草原面粉图片">
                         <div>
                             <h3>大草原面粉</h3>
+                            <h4>零售 ¥135<span style="padding: 0.5em;"></span>团购 ¥129</h4>
                             <p>规格：5Kg</p>
                         </div>
                     </div>

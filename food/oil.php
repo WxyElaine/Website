@@ -88,16 +88,19 @@
                         <img class="product-img" src="/food/oil/1.jpg" alt="葡萄籽油图片">
                         <div>
                             <h3>意大利斯玛<br class="break">葡萄籽油</h3>
+                            <h4>零售 ¥109<span style="padding: 0.5em;"></span>团购 ¥105</h4>
                             <p>规格：750ml</p>
                         </div>
                         <img class="product-img" src="/food/oil/2.jpg" alt="葡萄籽油图片">
                         <div>
                             <h3>意大利斯玛<br class="break">葡萄籽油</h3>
+                            <h4>零售 ¥129<span style="padding: 0.5em;"></span>团购 ¥124</h4>
                             <p>规格：1L</p>
                         </div>
                         <img class="product-img" src="/food/oil/3.jpg" alt="葡萄籽油图片">
                         <div>
                             <h3>意大利斯玛<br class="break">葡萄籽油</h3>
+                            <h4>零售 ¥369<span style="padding: 0.5em;"></span>团购 ¥362</h4>
                             <p>规格：3L</p>
                         </div>
                     </div>

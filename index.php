@@ -27,8 +27,8 @@
 
     <body id="frontpage">
     	<!--Navigation Bar-->
-        <?php include_once("navbar.html"); ?>
-
+    	<?php include_once("navbar.html"); ?>
+        
         <!--Welcome Words-->
         <div class="jumbotron" id="company_name">
             <div>
@@ -40,71 +40,27 @@
             </div>
             
             <h3 id="slogan">PURE<span class="dot"></span>NATURAL<span class="dot"></span>HEALTHY LIVING</h3>
+            <hr class="fancy_rule">
         </div>
 
         <!--Gallery-->
-        <!--<div id="gallery" class="jumbotron">       -->
-        <!--    <div id="theCarousel" class="carousel slide">-->
-        <!--        <ol id="indicators" class="carousel-indicators"></ol>-->
-        <!--        <div id="inner" class="carousel-inner"></div>-->
+        <div id="gallery" class="jumbotron">       
+            <div id="theCarousel" class="carousel slide">
+                <ol id="indicators" class="carousel-indicators"></ol>
+                <div id="inner" class="carousel-inner"></div>
 
-        <!--        <a class="left carousel-control" href="#theCarousel" data-slide="prev">-->
-        <!--            <span class="glyphicon glyphicon-chevron-left"></span>-->
-        <!--        </a>-->
-        <!--        <a class="right carousel-control" href="#theCarousel" data-slide="next">-->
-        <!--            <span class="glyphicon glyphicon-chevron-right"></span>-->
-        <!--        </a>-->
-        <!--    </div>-->
-        <!--</div>-->
+                <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#theCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
         
-        <!--Product Image Gallery-->
-        <!--<div class="jumbotron">-->
-            <!--<div class="row" id="productlist"></div>-->
-        <!--    <div class="row" id="productlist">-->
-        <!--        <div class="col-md-6">-->
-        <!--            <div class="thumbnail">-->
-        <!--                <div class="product-info">-->
-        <!--                    <a href="/food.php">-->
-                                <!--<img src="/food/pic/oat.jpg" alt="农产品及食品" class="product-img">-->
-        <!--                        <p class="product-caption">农产品及食品</p>-->
-        <!--                    </a>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        <div class="col-md-6">-->
-        <!--            <div class="thumbnail">-->
-        <!--                <div class="product-info">-->
-        <!--                    <a href="/ice.php">-->
-                                <!--<img src="/ice/pic/14.jpg" alt="冰酒" class="product-img">-->
-        <!--                        <p class="product-caption">冰酒</p>-->
-        <!--                    </a>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        <div class="col-md-6">-->
-        <!--            <div class="thumbnail">-->
-        <!--                <div class="product-info">-->
-        <!--                    <a href="/wine/redwine.php">-->
-                                <!--<img src="/wine/pic/red/1.png" alt="干红葡萄酒" class="product-img">-->
-        <!--                        <p class="product-caption">干红葡萄酒</p>-->
-        <!--                    </a>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        <div class="col-md-6">-->
-        <!--            <div class="thumbnail">-->
-        <!--                <div class="product-info">-->
-        <!--                    <a href="/wine/redwine.php">-->
-                                <!--<img src="/wine/pic/white/1.png" alt="干白葡萄酒" class="product-img">-->
-        <!--                        <p class="product-caption">干白葡萄酒</p>-->
-        <!--                    </a>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</div>-->
-        
+        <!--Intro Text and Product Links-->
         <div id="front_tbl" class="jumbotron">
+            <!--Intro Text-->
             <div id="introtext">
                 <p>
                     加枫福德商贸有限公司主要致力于经销加拿大原地原产原装进口农副产品及葡萄酒及其它酒类。

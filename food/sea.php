@@ -122,6 +122,7 @@
                         <img id="item3" class="product-img" src="/food/sea/1-3.jpg" alt="海参图片">
                         <div id="item4">
                             <h3>小猪湾干海参</h3>
+                            <h4>零售 ¥988<span style="padding: 0.5em;"></span>团购 ¥899</h4>
                             <p>规格：454g（1磅）/袋</p>
                         </div>
                     </div>

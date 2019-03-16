@@ -14,6 +14,3 @@ index.js
     show menu: intro, food, ice, red, white
     delete slideshow.json
 
-add price
-
-add background for subtitles

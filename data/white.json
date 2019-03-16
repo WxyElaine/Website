@@ -2,6 +2,7 @@
 		"0": {
 			"name": "月光梦幻VQA干白",
 			"engl": "Moonlight Magic Vidal Blanc",
+			"price": "零售 ¥333 团购 ¥166",
 			"country": "加拿大原瓶原装进口",
 			"producer": "钻石酒庄",
 			"type": "维代尔",
@@ -17,6 +18,7 @@
 		"1": {
 			"name": "20蜜蜂霞多丽干白",
 			"engl": "20 Bees Chardonnay",
+			"price": "零售 ¥333 团购 ¥166",
 			"country": "加拿大原瓶原装进口",
 			"producer": "钻石庄园酒庄",
 			"type": "霞多丽",
@@ -31,8 +33,9 @@
 	},
 	{
 		"2": {
-			"name": "伯瀑布VQA雷司令干白",
+			"name": "尼亚加拉瀑布VQA\n雷司令干白",
 			"engl": "Niagara Falls Riesling White Wine",
+			"price": "零售 ¥493 团购 ¥246",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "雷司令",
@@ -49,6 +52,7 @@
 		"3": {
 			"name": "哈伯VQA维代尔干白",
 			"engl": "Harbor Vidal",
+			"price": "零售 ¥333 团购 ¥166",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "维代尔",

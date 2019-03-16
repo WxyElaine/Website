@@ -2,6 +2,7 @@
 		"0": {
 			"name": "湖景珍藏赤霞珠干红VQA",
 			"engl": "Lakeview Cabernet Sauvignon Reserve Red Wine",
+			"price": "零售 ¥899 团购 ¥316",
 			"special": "加拿大Wine Align国家葡萄酒金奖",
 			"country": "加拿大原瓶原装进口",
 			"producer": "湖景酒庄",
@@ -18,6 +19,7 @@
 		"1": {
 			"name": "湖景珍藏梅洛干红",
 			"engl": "Lakeview Merlot Reserve Red Wine",
+			"price": "零售 ¥899 团购 ¥316",
 			"country": "加拿大原瓶原装进口",
 			"producer": "湖景酒庄",
 			"type": "梅洛",
@@ -34,6 +36,7 @@
 		"2": {
 			"name": "湖景珍藏西拉干红",
 			"engl": "Lakeview Syrah Reserve Red Wine",
+			"price": "零售 ¥899 团购 ¥316",
 			"country": "加拿大原瓶原装进口",
 			"producer": "湖景酒庄",
 			"type": "西拉",
@@ -50,6 +53,7 @@
 		"3": {
 			"name": "伊斯戴尔黑标\n卡本纳品丽珠干红",
 			"engl": "EastDell Black Label Cabernet Franc",
+			"price": "零售 ¥589 团购 ¥266",
 			"country": "加拿大原瓶原装进口",
 			"producer": "伊斯戴尔庄园酒庄",
 			"type": "卡本纳品丽珠",
@@ -66,6 +70,7 @@
 		"4": {
 			"name": "伊斯戴尔黑标\n卡本纳梅洛干红葡萄酒",
 			"engl": "EastDell Black Label Cabernet Merlot",
+			"price": "零售 ¥589 团购 ¥266",
 			"country": "加拿大原瓶原装进口",
 			"producer": "伊斯戴尔庄园酒庄",
 			"type": "卡本纳梅洛",
@@ -82,6 +87,7 @@
 		"5": {
 			"name": "伊斯戴尔黑标\n西拉干红葡萄酒",
 			"engl": "EastDell Black Label Shiraz",
+			"price": "零售 ¥589 团购 ¥266",
 			"country": "加拿大原瓶原装进口",
 			"producer": "伊斯戴尔庄园酒庄",
 			"type": "西拉",
@@ -98,6 +104,7 @@
 		"6": {
 			"name": "伊斯戴尔黑标\n卡本纳西拉干红葡萄酒",
 			"engl": "EastDell Black Label Cabernet Shiraz",
+			"price": "零售 ¥589 团购 ¥266",
 			"country": "加拿大原瓶原装进口",
 			"producer": "伊斯戴尔庄园酒庄",
 			"type": "卡本纳西拉",
@@ -114,6 +121,7 @@
 		"7": {
 			"name": "伊斯戴尔卡本纳\n梅洛干红葡萄酒",
 			"engl": "EastDell White Label Cabernet Merlot",
+			"price": "零售 ¥399 团购 ¥266",
 			"country": "加拿大原瓶原装进口",
 			"producer": "伊斯戴尔庄园酒庄",
 			"type": "维代尔",
@@ -130,6 +138,7 @@
 		"8": {
 			"name": "午夜香吻黑巴克\n卡本内VQA干红",
 			"engl": "Kiss Midnight Kiss Red Wine",
+			"price": "零售 ¥493 团购 ¥246",
 			"country": "加拿大原瓶原装进口",
 			"producer": "钻石庄园酒庄",
 			"type": "黑巴克、卡本内",
@@ -146,6 +155,7 @@
 		"9": {
 			"name": "午夜香吻VQA干红",
 			"engl": "Midnight Kiss Red Wine",
+			"price": "零售 ¥360 团购 ¥180",
 			"country": "加拿大原瓶原装进口",
 			"producer": "钻石庄园酒庄",
 			"type": "黑巴克",
@@ -161,6 +171,7 @@
 	{
 		"10": {
 			"name": "丹·爱克罗\n卡本内梅洛干红",
+			"price": "零售 ¥493 团购 ¥246",
 			"country": "加拿大原瓶原装进口",
 			"producer": "丹·爱克罗庄园酒庄",
 			"type": "卡本纳、梅洛",
@@ -177,6 +188,7 @@
 		"11": {
 			"name": "哈伯VQA赤霞珠干红",
 			"engl": "Harbour Cabernet Sauvignon Red Wine",
+			"price": "零售 ¥493 团购 ¥246",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "赤霞珠",
@@ -193,6 +205,7 @@
 		"12": {
 			"name": "哈伯赤霞珠梅洛干红",
 			"engl": "Harbour Cabernet Sauvignon Merlot",
+			"price": "零售 ¥439 团购 ¥220",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "赤霞珠、梅洛",
@@ -209,6 +222,7 @@
 		"13": {
 			"name": "哈伯黑巴克干红",
 			"engl": "Harbour Baco Noir",
+			"price": "零售 ¥333 团购 ¥166",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "黑巴克",
@@ -225,6 +239,7 @@
 		"14": {
 			"name": "哈伯子夜干红",
 			"engl": "Midnight Red Wine",
+			"price": "零售 ¥360 团购 ¥180",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "赤霞珠、品丽珠、梅洛",
@@ -241,6 +256,7 @@
 		"15": {
 			"name": "尼亚加拉瀑布VQA\n赤霞珠干红",
 			"engl": " Niagara Falls Cabernet Sauvignon Red Wine",
+			"price": "零售 ¥493 团购 ¥246",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "赤霞珠",
@@ -257,6 +273,7 @@
 		"16": {
 			"name": "尼亚加拉瀑布VQA\n赤霞珠梅洛干红",
 			"engl": "Niagara Falls Cabernet Sauvignon Merlot Red Wine",
+			"price": "零售 ¥439 团购 ¥220",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "赤霞珠、梅洛",
@@ -273,6 +290,7 @@
 		"17": {
 			"name": "哈伯枫叶红宝石干红",
 			"engl": "Maple Ruby",
+			"price": "零售 ¥339 团购 ¥169",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "巴克、品丽珠",
@@ -289,6 +307,7 @@
 		"18": {
 			"name": "哈伯加拿大红宝石干红",
 			"engl": "Canadian Ruby Red Wine",
+			"price": "零售 ¥359 团购 ¥180",
 			"country": "加拿大原瓶原装进口",
 			"producer": "哈伯庄园酒庄",
 			"type": "巴克、赤霞珠",

@@ -96,26 +96,31 @@
                         <img class="product-img" src="/food/milk/1.jpg" alt="牛奶图片">
                         <div>
                             <h3>格兰特牛奶<br>（3.25&#37;全脂）</h3>
+                            <h4>零售 ¥42.9<span style="padding: 0.5em;"></span>团购 ¥34.9</h4>
                             <p>规格：1L</p><p>成分：全脂牛奶，维生素A、维生素D</p><p>使用人群：2岁以上人群</p>
                         </div>
                         <img class="product-img" src="/food/milk/2.jpg" alt="牛奶图片">
                         <div>
                             <h3>格兰特牛奶<br>（2&#37;减脂）</h3>
+                            <h4>零售 ¥39.9<span style="padding: 0.5em;"></span>团购 ¥34.9</h4>
                             <p>规格：1L</p><p>成分：部分脱脂牛奶，维生素A、维生素D</p><p>使用人群：2岁以上人群</p>
                         </div>
                         <img class="product-img" src="/food/milk/3.jpg" alt="牛奶图片">
                         <div>
                             <h3>格兰特牛奶<br>（3.25&#37;全脂）</h3>
+                            <h4>零售 ¥45<span style="padding: 0.5em;"></span>团购 ¥38.7</h4>
                             <p>规格：200ml（3 盒起）</p><p>成分：全脂牛奶，维生素A、维生素D</p>
                         </div>
                         <img class="product-img" src="/food/milk/4.jpg" alt="牛奶图片">
                         <div>
                             <h3>格兰特牛奶<br>（2&#37;减脂）</h3>
+                            <h4>零售 ¥45<span style="padding: 0.5em;"></span>团购 ¥38.7</h4>
                             <p>规格：200ml（3盒起）</p><p>成分：部分脱脂牛奶，维生素A、维生素D</p><p>使用人群：2岁以上人群</p>
                         </div>
                         <img class="product-img" src="/food/milk/5.jpg" alt="牛奶图片">
                         <div>
                             <h3>格兰特巧克力牛奶</h3>
+                            <h4>零售 ¥45<span style="padding: 0.5em;"></span>团购 ¥38.7</h4>
                             <p>规格：200ml（3盒起）</p><p>成分：部分脱脂牛奶（维生素A、维生素D），白砂糖，可可粉，小麦粉，食盐，卡拉胶</p><p>使用人群：2岁以上人群</p>
                         </div>
                     </div>

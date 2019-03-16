@@ -81,7 +81,6 @@ function loadJSONCallback(response) {
             currentModal.find('.btn-prev').click(function(){
                 toggleFade();
                 currentModal.modal('hide');
-                // currentModal.closest("div[id^='modalnum']").prevAll("div[id^='modalnum']").first().modal('show'); 
                 currentModal.prev("div[id^='modalnum']").modal('show');
                 toggleFade();
             });
@@ -89,7 +88,6 @@ function loadJSONCallback(response) {
             currentModal.find('.btn-next').click(function(){
                 toggleFade();
                 currentModal.modal('hide');
-                // currentModal.closest("div[id^='modalnum']").nextAll("div[id^='modalnum']").first().modal('show');
                 currentModal.next("div[id^='modalnum']").modal('show');
                 toggleFade();
             });
@@ -124,10 +122,18 @@ function createProduct(product, index) {
     img.alt = product.name;
     img.classList.add("product-img");
     let caption = document.createElement("p");
-    caption.innerText = product.name;
     caption.classList.add("product-caption");
+    let productName = document.createElement("span");
+    productName.classList.add("product-name-caption");
+    productName.innerText = product.name;
+    caption.appendChild(productName);
     if (productType != "food") {
         productInfo.appendChild(img);
+        let price_list = product.price.split(' ');
+        let price = document.createElement("span");
+        price.classList.add("product-price-caption");
+        price.innerText = '\n\n' + price_list[0] + ' ' + price_list[1] + '\n' + price_list[2] + ' ' + price_list[3];
+        caption.appendChild(price);
         productInfo.appendChild(caption);
     } else {
         let link = document.createElement("a");
@@ -204,17 +210,17 @@ function createModal(product, index) {
     $(next_button).addClass("btn-next");
     $(next_button).text("下一个");
     
-    // // close window button (in the bottom right)
-    // let close_button = document.createElement("button");
-    // $(close_button).attr("type", "button");
-    // $(close_button).addClass("btn");
-    // $(close_button).addClass("btn-default");
-    // $(close_button).attr("data-dismiss", "modal");
-    // $(close_button).text("关闭");
+    // close window button (in the bottom right)
+    let close_button = document.createElement("button");
+    $(close_button).attr("type", "button");
+    $(close_button).addClass("btn");
+    $(close_button).addClass("btn-default");
+    $(close_button).attr("data-dismiss", "modal");
+    $(close_button).text("关闭");
     
     modal_footer.appendChild(prev_button);
     modal_footer.appendChild(next_button);
-    // modal_footer.appendChild(close_button);
+    modal_footer.appendChild(close_button);
     modal_content.appendChild(modal_header);
     modal_content.appendChild(modal_body);
     modal_content.appendChild(modal_footer);
@@ -242,14 +248,43 @@ function loadInfo(modal_body, product) {
         if (key === "name") {
             let title = document.createElement("h2");
             title.classList.add("info-title");
-            // remove all newline characters in the title
-            title.innerText = value.replace(/\n/g, '');
+            // remove all newline characters in the title,
+            // and replace all whitespaces with the newline character
+            title.innerText = value.replace(/\n/g, '').replace(' ', '\n');
             info_body.appendChild(title);
         } else if (key === "engl") {
             let engl = document.createElement("p");
             engl.classList.add("info-engl");
             engl.innerText = value;
             info_body.appendChild(engl);
+        } else if (key == "price") {
+            let price = document.createElement("p");
+            price.classList.add("info-price");
+            let price_list = value.split(' ');
+            // retail label and price
+            let retail = document.createElement("span");
+            retail.classList.add("retail");
+            retail.innerText = price_list[0];
+            price.appendChild(retail);
+            let retailPrice = document.createElement("span");
+            retailPrice.classList.add("retail-price");
+            retailPrice.innerText = ' ' + price_list[1];
+            price.appendChild(retailPrice);
+            // add space between two prices
+            let space = document.createElement("span");
+            space.style.padding = "0.5em";
+            price.appendChild(space);
+            // group label and price
+            let group = document.createElement("span");
+            group.classList.add("group");
+            group.innerText = price_list[2];
+            price.appendChild(group);
+            let groupPrice = document.createElement("span");
+            groupPrice.classList.add("group-price");
+            groupPrice.innerText = ' ' + price_list[3];
+            price.appendChild(groupPrice);
+            // append the price paragraph
+            info_body.appendChild(price);
         } else if (key === "special") {
             let special = document.createElement("p");
             special.classList.add("info-special");

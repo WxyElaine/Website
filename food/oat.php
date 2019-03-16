@@ -99,16 +99,19 @@
                         <img class="product-img" src="/food/oat/1.jpg" alt="燕麦图片">
                         <div>
                             <h3>诺思格快熟燕麦片</h3>
+                            <h4>零售 ¥58<span style="padding: 0.5em;"></span>团购 ¥45</h4>
                             <p>规格：510g</p><p>成分：100&#37;纯天然燕麦</p>
                         </div>
                         <img class="product-img" src="/food/oat/2.jpg" alt="燕麦图片">
                         <div>
                             <h3>诺思格快熟燕麦片</h3>
+                            <h4>零售 ¥96<span style="padding: 0.5em;"></span>团购 ¥78</h4>
                             <p>规格：1.19kg</p><p>成分：100&#37;纯天然燕麦</p>
                         </div>
                         <img class="product-img" src="/food/oat/3.jpg" alt="燕麦图片">
                         <div>
                             <h3>诺思格原味<br class="break">即食燕麦片</h3>
+                            <h4>零售 ¥68<span style="padding: 0.5em;"></span>团购 ¥60</h4>
                             <p>规格：28g</p><p>成分：100&#37;纯天然燕麦</p>
                         </div>
                     </div>
