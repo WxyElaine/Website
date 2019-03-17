@@ -8,8 +8,16 @@
 
 $(function(){
     $(document).ready(function() {
-        // load slideshow.json
-        loadJSON('/data/slideshow.json', loadJSONCallback);
+        // show carousel with wide images
+        loadJSON('/data/slideshow_wide.json', loadJSONCallback);
+        
+        // Show carousel images based on screen width
+        // if ($(window).width() > 600) {
+        //     loadJSON('/data/slideshow_wide.json', loadJSONCallback);
+        // } else {
+        //     loadJSON('/data/slideshow.json', loadJSONCallback);
+        // }
+        
         
         // set the time interval for carousel autoplay
         $('.carousel').carousel({

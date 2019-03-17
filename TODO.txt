@@ -3,14 +3,3 @@ gallery.css
 
 food.php
     for each product, add modal / not ???    click the img ---> show larger img ???
-
-index.js
-    *** Option 1
-    adjust carousel image size
-    show random images?
-    handle the swipe event on div.carousel
-    
-    *** Option 2
-    show menu: intro, food, ice, red, white
-    delete slideshow.json
-

@@ -214,14 +214,28 @@ hr.fancy_rule {
 
 /* Mobile Friendly Style */
 @media screen and (max-width: 600px) {
-    /* Carousel */
-    #indicators {
-        margin-bottom: -1.5em;
+    /* Narrow Carousel Images */
+    /*#indicators {*/
+    /*    margin-bottom: -1.5em;*/
+    /*}*/
+
+    /* Wide Carousel Images */
+    #gallery {
+        padding-bottom: 0px;
+        padding-top: 20px;
     }
     
-    /*.carousel-caption p {*/
-    /*    font-size: 0.7em !important;*/
-    /*}*/
+    #indicators {
+        margin-bottom: 0em;
+    }
+    
+    .carousel-caption {
+        top: 120px;
+    }
+    
+    .carousel-inner {
+        padding-bottom: 0em; 
+    }
     
     /* Company Name and logo */
     #company_name>div {
