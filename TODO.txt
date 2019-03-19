@@ -3,3 +3,6 @@ gallery.css
 
 food.php
     for each product, add modal / not ???    click the img ---> show larger img ???
+
+
+***

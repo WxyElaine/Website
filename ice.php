@@ -23,6 +23,7 @@
         <link href="/css/article.css" type="text/css" rel="stylesheet" />
         <script src="/js/gallery.js" type="text/javascript"></script>
         <link href="/css/gallery.css" type="text/css" rel="stylesheet" />
+        <link href="/food/food.css" type="text/css" rel="stylesheet" />
         <!--ice.css-->
         <link href="/ice.css" type="text/css" rel="stylesheet" />
     </head>
@@ -45,15 +46,16 @@
                         为了挽救损失，酿酒师将冰冻的葡萄压榨后按传统的方法发酵酿酒，意外产生出了酸甜比例平衡，
                         甘如蜂蜜般的美酒，称为冰酒。
                     </p>
+                    <img class="pic-m" src="/ice/ice.jpg" alt="冰酒图片">
                     <p>
                         冰酒是大自然赋予葡萄酒爱好者的礼物。冰酒酿造技术由德国移民带入加拿大，经改良后酿出的酒更加醇香。
-                        <b>冰酒的酿造对地理气候要求极为严格</b>，<b>纬度高</b>，温度低，冬季要全然天寒地冻，
+                        冰酒的酿造对地理气候要求极为严格，纬度高，温度低，冬季要全然天寒地冻，
                         但其他季节却又要足够温暖，因此全球只有几个国家生产冰酒。
                     </p>
                     <p>
-                        <b>加拿大是世界上唯一能够每年生产冰酒的地方</b>，全球每年三分之二以上的冰酒都产自加拿大，
+                        加拿大是世界上唯一能够每年生产冰酒的地方，全球每年三分之二以上的冰酒都产自加拿大，
                         由于得天独厚的自然条件以及反复改良的酿造技术，加拿大的主要葡萄产区尼亚加拉半岛的
-                        冰酒品质也较其他地区为佳，<b>加拿大是公认的世界上最主要且品质最佳的冰酒生产国</b>。
+                        冰酒品质也较其他地区为佳，加拿大是公认的世界上最主要且品质最佳的冰酒生产国。
                     </p>
                     <p>
                         加拿大冰酒Icewine，是一种甜型葡萄酒，它是利用气温在零下8度以下,在葡萄树上自然冰冻的

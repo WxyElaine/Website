@@ -27,6 +27,11 @@
     padding-top: 1em;
 }
 
+.pic-m {
+    float: right;
+    margin-left: 1em;
+}
+
 /* Mobile Friendly Style */
 @media screen and (max-width: 600px) {
     #galleryjumbo {
