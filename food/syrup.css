@@ -1,0 +1,57 @@
+/*  
+    Xinyi Wang & Yuchen Wang
+    01/14/18
+    Product: Maple Syrup
+*/
+
+#maincontent .pic-s {
+    margin: auto;
+    width: 85%;
+    height: auto;
+}
+
+#sub-highlight li {
+    font-size: 1em;
+}
+
+#syrup_logo {
+    height: auto;
+    width: 35% !important;
+    display: block;
+    float: right;
+    margin-left: 0.5em !important;
+}
+
+.tip-img {
+    margin-bottom: 1em;
+}
+
+@media screen and (min-width: 600px) {
+    .intro-head {
+        display: grid;
+        grid-template-columns: 0.8fr 1fr;
+    }
+    
+    #syrup_logo {
+        margin-right: 5em;
+    }
+}
+
+/* Mobile Friendly Style */
+@media screen and (max-width: 1000px) {
+    .intro-head img {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro-head img {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90% !important;
+    }
+    
+    .product {
+        grid-template-columns: 1fr 1fr;
+    }
+}

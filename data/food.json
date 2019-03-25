@@ -45,5 +45,26 @@
 			"href": "/food/powder.php",
 			"img": "/food/pic/powder.jpg"
 		}
+	},
+	{
+		"6": {
+			"name": "伯纳德枫糖浆",
+			"href": "/food/syrup.php",
+			"img": "/food/pic/syrup.jpg"
+		}
+	},
+	{
+		"7": {
+			"name": "皇家收获亚麻籽油",
+			"href": "/food/flax.php",
+			"img": "/food/pic/flax.jpg"
+		}
+	},
+	{
+		"8": {
+			"name": "KB 西方圣人蜂蜜",
+			"href": "/food/honey.php",
+			"img": "/food/pic/honey.jpg"
+		}
 	}
 ]
