@@ -1,0 +1,32 @@
+/*  
+    Xinyi Wang & Yuchen Wang
+    01/14/18
+    Product: Maple Syrup
+*/
+
+#maincontent .pic-s {
+    float: right;
+    margin-left: 1.5em;
+    width: 35%;
+}
+
+#sub-highlight li {
+    font-size: 1em;
+}
+
+#honey_logo {
+    float: none;
+    height: auto;
+    width: 100% !important;
+    display: block;
+}
+
+/* Mobile Friendly Style */
+@media screen and (max-width: 600px) {
+    #maincontent .pic-s {
+        display: flex;
+        float: none;
+        margin: auto;
+        width: 85% !important;
+    }
+}

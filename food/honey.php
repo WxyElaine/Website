@@ -51,10 +51,11 @@
                 </div>
                 <div class="highlight">
                     <h2>产品特点</h2>
+                    <img class="pic-s" src="/food/honey/honey2.jpg" alt="蜂蜜图片">
                     <ul>
-                        <img class="pic-s" id="honey_logo" src="/food/honey/honey2.jpg" alt="蜂蜜图片">
                         <li>
                             <b>紫苜蓿花作为蜜蜂采蜜的蜜源</b><br>
+                            
                             紫苜蓿蜜含苜蓿素和苜蓿酚等物质，有止咳平喘作用。含较多的铁元素，为治疗贫血的辅助食品，
                             并对肝脏有保护作用，为肝脏的代谢活动提供能量准备，刺激肝组织再生，起到修复损伤的作用。<br>
                             富含粗蛋白VB，益于气血，延缓衰老，防癌抗劳，养颜润肤。还具有止血、降压解毒、提神健脾的功效。
@@ -77,7 +78,10 @@
                             </ul>
                         </li>
                     </ul>
-                    <img class="pic-s" src="/food/honey/honey3.jpg" alt="蜂蜜图片">
+                    <div>
+                        <img class="pic-m" id="honey_logo" src="/food/honey/honey3.jpg" alt="蜂蜜图片">
+                    </div>
+                    
                 </div>
                 <div class="types">
                     <h2>产品规格</h2>
