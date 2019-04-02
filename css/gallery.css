@@ -223,6 +223,19 @@
     transition: opacity .3s ease-out;
 }
 
+/* Style for wide screens */
+@media screen and (min-width: 1910px) {
+    .col-md-2 {
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .col-md-2 {
+        width: 14%;
+    }
+}
+
 /* Mobile Friendly Style */
 @media screen and (max-width: 1000px) {
     #productlist {
@@ -319,3 +332,4 @@
         font-size: 0.6em;
     }
 }
+
