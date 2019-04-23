@@ -6,5 +6,4 @@ food.php
 
 
 ***
-ice layout
-index page add ps images
+ice layout --> try px as units
